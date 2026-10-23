@@ -1,0 +1,1731 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="description" content="E-Portfolio Praktik Mengajar Mandiri (LK 3) Rahmawati Nawir — PPG Prajabatan Gelombang 1 2026, Universitas Negeri Makassar, SMK Negeri 6 Makassar Program Keahlian Kuliner.">
+<meta name="theme-color" content="#c94b74">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>E-Portfolio Praktik Mengajar Mandiri | Rahmawati Nawir — PPG Prajabatan 2026</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Caveat:wght@500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;1,9..144,500;1,9..144,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ================= LOADER ================= -->
+<div class="loader" id="loader">
+  <div class="loader-orbit">
+    <span class="loader-ring"></span>
+    <div class="loader-book"><i class="fa-solid fa-graduation-cap"></i></div>
+  </div>
+  <p class="loader-title">Rahmawati Nawir</p>
+  <p class="loader-sub">Menyiapkan portfolio<span class="dots"><span>.</span><span>.</span><span>.</span></span></p>
+</div>
+
+<!-- ================= PROGRESS BAR ================= -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- ================= MOBILE OVERLAY ================= -->
+<div class="mobile-overlay" id="mobileOverlay"></div>
+
+<!-- ================= SIDEBAR ================= -->
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-brand">
+    <div class="brand-mark"><i class="fa-solid fa-graduation-cap"></i></div>
+    <div class="brand-text">
+      <span class="brand-title">E-Portfolio</span>
+      <span class="brand-sub">Praktik Mengajar Mandiri</span>
+    </div>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a href="#beranda" class="nav-link active" data-section="beranda">
+      <i class="fa-solid fa-house"></i><span>Beranda</span>
+    </a>
+    <a href="#profil" class="nav-link" data-section="profil">
+      <i class="fa-solid fa-user"></i><span>Profil Guru</span>
+    </a>
+    <a href="#rancangan" class="nav-link" data-section="rancangan">
+      <i class="fa-solid fa-book-open"></i><span>Analisis Rancangan Pembelajaran</span>
+    </a>
+    <a href="#materi" class="nav-link" data-section="materi">
+      <i class="fa-solid fa-book"></i><span>Analisis Materi Pembelajaran</span>
+    </a>
+    <a href="#media" class="nav-link" data-section="media">
+      <i class="fa-solid fa-display"></i><span>Analisis Media Pembelajaran</span>
+    </a>
+    <a href="#video-mengajar" class="nav-link" data-section="video-mengajar">
+      <i class="fa-solid fa-video"></i><span>Analisis Video Mengajar</span>
+    </a>
+    <a href="#nonmengajar" class="nav-link" data-section="nonmengajar">
+      <i class="fa-solid fa-school"></i><span>Analisis Kegiatan Nonmengajar</span>
+    </a>
+    <a href="#instrumen" class="nav-link" data-section="instrumen">
+      <i class="fa-solid fa-clipboard-check"></i><span>Instrumen Penilaian</span>
+    </a>
+    <a href="#refleksi" class="nav-link" data-section="refleksi">
+      <i class="fa-solid fa-lightbulb"></i><span>Refleksi Diri</span>
+    </a>
+  </nav>
+
+  <button class="sidebar-collapse-btn" id="collapseBtn" title="Ciutkan Sidebar">
+    <i class="fa-solid fa-angles-left"></i>
+  </button>
+</aside>
+
+<!-- ================= MAIN ================= -->
+<div class="main-wrapper" id="mainWrapper">
+
+  <!-- ================= HEADER ================= -->
+  <header class="site-header" id="siteHeader">
+    <button class="hamburger" id="hamburgerBtn" aria-label="Buka menu">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <div class="header-text">
+      <p class="header-eyebrow">E-Portfolio Praktik Mengajar Mandiri</p>
+      <h1 class="header-name">Rahmawati Nawir</h1>
+    </div>
+
+    <div class="header-actions">
+      <button class="theme-toggle" id="themeToggle" title="Mode Gelap" aria-label="Ganti mode terang/gelap">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+      <div class="header-photo">
+        <img src="assets/foto-profil.jpg" alt="Foto Profil Guru"
+             onerror="this.onerror=null;this.src='https://ui-avatars.com/api/?name=Rahmawati+Nawir&background=c94b74&color=fff&size=200&font-size=0.38&bold=true'">
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= CONTENT ================= -->
+  <main class="content">
+
+    <!-- ============ HERO / BERANDA ============ -->
+    <section id="beranda" class="section hero-section">
+      <div class="hero" id="hero">
+
+        <!-- dekorasi latar -->
+        <div class="hero-bg" aria-hidden="true">
+          <span class="blob blob-1"></span>
+          <span class="blob blob-2"></span>
+          <span class="blob blob-3"></span>
+          <span class="hero-grid"></span>
+          <i class="float-ico fi-1 fa-solid fa-graduation-cap"></i>
+          <i class="float-ico fi-2 fa-solid fa-cake-candles"></i>
+          <i class="float-ico fi-3 fa-solid fa-bowl-food"></i>
+          <i class="float-ico fi-4 fa-solid fa-star"></i>
+          <i class="float-ico fi-5 fa-solid fa-leaf"></i>
+          <i class="float-ico fi-6 fa-solid fa-mug-hot"></i>
+        </div>
+
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <span class="hero-badge" data-aos="fade-down">
+              <span class="pulse-dot"></span> PPG Calon Guru &bull; Gelombang 1 &bull; 2026
+            </span>
+            <p class="eyebrow-note" data-aos="fade-up" data-aos-delay="80">Selamat datang di ruang belajarku,</p>
+            <h2 class="hero-title" data-aos="fade-up" data-aos-delay="140">
+              E-Portfolio <span class="hl">Praktik Mengajar</span> Mandiri
+            </h2>
+            
+            <p class="hero-desc" data-aos="fade-up" data-aos-delay="260">
+              Ruang digital yang menampilkan seluruh dokumentasi, analisis, refleksi, serta bukti
+              implementasi pembelajaran selama Praktik Pengalaman Lapangan (PPL) pada Program
+              Pendidikan Profesi Guru (PPG) Calon Guru Gelombang 1 Tahun 2026 di SMK Negeri 6 Makassar,
+              Program Keahlian Kuliner.
+            </p>
+            <div class="hero-buttons" data-aos="fade-up" data-aos-delay="320">
+              <a href="#profil" class="btn btn-primary ripple-target">
+                <i class="fa-solid fa-book-bookmark"></i> Lihat Portfolio
+              </a>
+            </div>
+            <ul class="hero-places" data-aos="fade-up" data-aos-delay="380">
+              <li><i class="fa-solid fa-school"></i> SMK Negeri 6 Makassar</li>
+              <li><i class="fa-solid fa-building-columns"></i> Universitas Negeri Makassar</li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" data-aos="zoom-in" data-aos-delay="200">
+            <div class="visual-stage" id="visualStage">
+              <svg class="ring-text" viewBox="0 0 300 300" aria-hidden="true">
+                <defs><path id="ringPath" d="M150,150 m-122,0 a122,122 0 1,1 244,0 a122,122 0 1,1 -244,0"/></defs>
+                <text><textPath href="#ringPath" startOffset="0">RAHMAWATI NAWIR &#9733; E-PORTFOLIO PPL &#9733; PPG 2026 &#9733; SMKN 6 MAKASSAR &#9733;</textPath></text>
+              </svg>
+              <div class="photo-arch">
+                <img src="assets/foto-profil.jpg" alt="Foto Rahmawati Nawir"
+                     onerror="this.onerror=null;this.src='https://ui-avatars.com/api/?name=Rahmawati+Nawir&background=c94b74&color=fff&size=600&bold=true'">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ticker -->
+        <div class="hero-marquee" aria-hidden="true">
+          <div class="marquee-track">
+            <span>Modul Ajar</span><span>Media Pembelajaran</span><span>Video Mengajar</span><span>Instrumen Penilaian</span><span>Refleksi Diri</span><span>Kegiatan Nonmengajar</span>
+            <span>Modul Ajar</span><span>Media Pembelajaran</span><span>Video Mengajar</span><span>Instrumen Penilaian</span><span>Refleksi Diri</span><span>Kegiatan Nonmengajar</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROFIL GURU ============ -->
+    <section id="profil" class="section" style="max-width:100%;overflow-x:clip;">
+      <div class="section-heading" data-aos="fade-up">
+        <h2><i class="fa-solid fa-user"></i> Profil Guru</h2>
+      </div>
+
+      <div class="card profil-card">
+        <div class="profil-photo" data-aos="zoom-in">
+          <img src="assets/foto-profil.jpg" alt="Foto Guru"
+               onerror="this.onerror=null;this.src='https://ui-avatars.com/api/?name=Rahmawati+Nawir&background=db6a8f&color=fff&size=400&bold=true'">
+        </div>
+        <div class="profil-detail" data-aos="fade-left">
+          <dl class="detail-list">
+            <div class="detail-row"><dt><i class="fa-solid fa-id-badge"></i> Nama Lengkap</dt><dd>Rahmawati Nawir</dd></div>
+            <div class="detail-row"><dt><i class="fa-solid fa-user"></i> Nama Panggilan</dt><dd>Rahma</dd></div>
+            <div class="detail-row"><dt><i class="fa-solid fa-id-card"></i> NIM</dt><dd>2590494950034</dd></div>
+            <div class="detail-row"><dt><i class="fa-solid fa-cake-candles"></i> Tempat, Tanggal Lahir</dt><dd>Bulukumba, 1 Desember 2000</dd></div>
+            <div class="detail-row"><dt><i class="fa-solid fa-graduation-cap"></i> Bidang Studi</dt><dd>Kuliner</dd></div>
+            <div class="detail-row"><dt><i class="fa-solid fa-user-graduate"></i> Program</dt><dd>PPG Calon Guru Gelombang 1 Tahun 2026</dd></div>
+            <div class="detail-row"><dt><i class="fa-solid fa-building-columns"></i> LPTK</dt><dd>Universitas Negeri Makassar (UNM)</dd></div>
+            <div class="detail-row"><dt><i class="fa-solid fa-school"></i> Sekolah PPL</dt><dd>SMK Negeri 6 Makassar &mdash; Program Keahlian Kuliner</dd></div>
+            <div class="detail-row"><dt><i class="fa-solid fa-chalkboard-user"></i> Guru Pamong</dt><dd>Prita Bebasari, S.Pd</dd></div>
+            <div class="detail-row"><dt><i class="fa-solid fa-user-tie"></i> Dosen Pembimbing Lapangan</dt><dd>Dr. Hamidah Suryani, M.Pd</dd></div>
+          </dl>
+        </div>
+      </div>
+
+      <div class="two-col" id="profil-kampus-sekolah" style="margin-bottom:26px;">
+
+        <!-- ============ KAMPUS LPTK ============ -->
+        <div class="card" data-aos="fade-up">
+          <h3 class="block-title"><i class="fa-solid fa-building-columns"></i> Kampus LPTK — Universitas Negeri Makassar</h3>
+          <a class="location-tag" href="https://www.google.com/maps/search/?api=1&query=Universitas+Negeri+Makassar" target="_blank" rel="noopener">
+            <i class="fa-solid fa-location-dot"></i> Jl. A.P. Pettarani, Makassar, Sulawesi Selatan
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+          <div class="lptk-gallery">
+            <figure class="lptk-photo"><img src="assets/media/kampus-unm-1.png" alt="Gedung utama Universitas Negeri Makassar" loading="lazy" onerror="this.parentElement.style.display='none'"></figure>
+            <figure class="lptk-photo"><img src="assets/media/kampus-unm-2.jpg" alt="Kegiatan di kampus UNM" loading="lazy" onerror="this.parentElement.style.display='none'"></figure>
+            <figure class="lptk-photo"><img src="assets/media/kampus-unm-3.jpg" alt="Lingkungan kampus UNM" loading="lazy" onerror="this.parentElement.style.display='none'"></figure>
+          </div>
+          <p class="block-text">
+            Universitas Negeri Makassar (UNM) adalah salah satu perguruan tinggi negeri terbesar di Indonesia Timur,
+            yang berlokasi di Jl. A.P. Pettarani, Makassar. UNM memiliki 9 fakultas dan program pascasarjana,
+            yang mencakup bidang pendidikan, saintek, kedokteran, hingga seni dan desain.
+          </p>
+          <p class="block-text" style="margin-top:10px;">
+            Sebagai LPTK (Lembaga Pendidikan Tenaga Kependidikan), UNM menyiapkan mahasiswa menjadi guru profesional
+            melalui program Pendidikan Profesi Guru (PPG) — memadukan teori pedagogi dengan praktik nyata di sekolah.
+          </p>
+        </div>
+
+        <!-- ============ SEKOLAH PPL ============ -->
+        <div class="card" data-aos="fade-up" data-aos-delay="50">
+          <h3 class="block-title"><i class="fa-solid fa-school"></i> Sekolah PPL — SMK Negeri 6 Makassar</h3>
+          <a class="location-tag" href="https://www.google.com/maps/search/?api=1&query=SMK+Negeri+6+Makassar" target="_blank" rel="noopener">
+            <i class="fa-solid fa-location-dot"></i> Jl. Andi Djemma No.132, Banta-Bantaeng, Kec. Rappocini, Makassar
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+          <div class="lptk-gallery">
+            <figure class="lptk-photo"><img src="assets/media/sekolah-smkn6-1.jpg" alt="SMK Negeri 6 Makassar" loading="lazy" onerror="this.parentElement.style.display='none'"></figure>
+            <figure class="lptk-photo"><img src="assets/media/sekolah-smkn6-2.jpg" alt="Lingkungan SMK Negeri 6 Makassar" loading="lazy" onerror="this.parentElement.style.display='none'"></figure>
+            <figure class="lptk-photo"><img src="assets/media/sekolah-smkn6-3.jpg" alt="Kegiatan di SMK Negeri 6 Makassar" loading="lazy" onerror="this.parentElement.style.display='none'"></figure>
+          </div>
+          <p class="block-text">
+            SMK Negeri 6 Makassar (dikenal dengan sebutan Skansix) adalah salah satu Sekolah Menengah Kejuruan Negeri
+            unggulan yang berlokasi di Jl. Andi Djemma No.132, Banta-Bantaeng, Kec. Rappocini, Kota Makassar.
+            Sekolah ini berfokus pada pendidikan vokasi yang membekali siswa dengan keterampilan siap kerja,
+            kewirausahaan, dan sertifikasi profesi.
+          </p>
+        </div>
+
+      </div>
+
+      <div class="two-col" id="profil-daerah-inspirasi" style="margin-bottom:26px;">
+      <div class="card" data-aos="fade-up" style="width:100%;max-width:100%;box-sizing:border-box;margin-bottom:0;">
+        <h3 class="block-title"><i class="fa-solid fa-map-location-dot"></i> Asal &amp; Keunikan Daerah — Bulukumba</h3>
+        <p class="block-text">
+          Bulukumba dikenal dengan julukan <em>"Butta Panrita Lopi"</em> atau Tanah Para Ahli Pembuat Perahu,
+          ujung selatan Sulawesi Selatan. Selain terkenal dengan pembuatan kapal tradisional Pinisi yang telah
+          diakui UNESCO sebagai Warisan Budaya Takbenda, Bulukumba juga memiliki kekayaan budaya yang sangat unik,
+          yaitu Adat Ammatoa di Kajang dengan pakaian serba hitam sebagai simbol kesederhanaan dan kesetaraan.
+        </p>
+        <div class="analysis-grid" style="margin-top:16px;">
+          <div class="analysis-item daerah">
+            <figure class="daerah-thumb">
+              <img src="assets/media/daerah-perahu-pinisi.jpg" alt="Perahu Pinisi Bulukumba" loading="lazy">
+            </figure>
+            <h4><i class="fa-solid fa-sailboat"></i> Perahu Pinisi</h4>
+            <p>Kapal tradisional Buola Beso — dibuat tanpa paku, diakui UNESCO sebagai Warisan Budaya Takbenda Indonesia.</p>
+          </div>
+          <div class="analysis-item daerah">
+            <figure class="daerah-thumb">
+              <img src="assets/media/daerah-adat-ammatoa.jpg" alt="Pakaian serba hitam Adat Ammatoa Kajang" loading="lazy">
+            </figure>
+            <h4><i class="fa-solid fa-place-of-worship"></i> Adat Ammatoa</h4>
+            <p>Masyarakat Kajang dengan pakaian serba hitam sebagai lambang kesederhanaan dan kesetaraan.</p>
+          </div>
+          <div class="analysis-item daerah">
+            <figure class="daerah-thumb">
+              <img src="assets/media/daerah-pantai-bira.jpg" alt="Pantai Tanjung Bira Bulukumba" loading="lazy">
+            </figure>
+            <h4><i class="fa-solid fa-umbrella-beach"></i> Pantai Tanjung Bira</h4>
+            <p>Pantai berpasir putih halus, destinasi unggulan Bulukumba yang ramai dikunjungi wisatawan.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ============ INSPIRASI & TUJUAN MENJADI GURU ============ -->
+      <div class="card" data-aos="fade-up" style="width:100%;max-width:100%;box-sizing:border-box;">
+        <h3 class="block-title"><i class="fa-solid fa-heart"></i> Inspirasi &amp; Tujuan Menjadi Guru</h3>
+        <p class="block-text">
+          Inspirasi saya menjadi guru tumbuh dari pengalaman menyaksikan bagaimana pendidikan mengubah
+          kehidupan orang-orang di sekitar — guru yang sabar dan kreatif mampu membuka wawasan siswa,
+          bahkan di daerah yang tantangannya besar. Ketekunan dan kesungguhan dalam setiap proses
+          menjadi bekal utama saya memilih jalur profesi guru.
+        </p>
+        <ol class="goal-list">
+          <li>Menjadi guru profesional yang mampu merancang pembelajaran kreatif, inovatif, dan berpusat pada murid.</li>
+          <li>Menyiapkan siswa SMK siap kerja dan berdaya saing, khususnya di bidang kuliner.</li>
+          <li>Melestarikan kuliner Indonesia melalui pembelajaran yang kontekstual dan berbasis budaya daerah.</li>
+          <li>Mengembangkan kompetensi diri secara berkelanjutan melalui siklus penelitian tindakan kelas.</li>
+        </ol>
+        <blockquote class="profil-quote">
+          "Tidak semua proses berjalan cepat dan mudah, tetapi setiap usaha yang dilakukan dengan sungguh-sungguh
+          akan membawa hasil dan pelajaran yang berharga untuk masa depan."
+          <cite>— Rahmawati Nawir</cite>
+        </blockquote>
+      </div>
+
+      </div>
+    </section>
+
+    <!-- ============ ANALISIS RANCANGAN PEMBELAJARAN ============ -->
+    <section id="rancangan" class="section">
+      <div class="section-heading" data-aos="fade-up">
+        <h2><i class="fa-solid fa-book-open"></i> Analisis Produk Rancangan Pembelajaran</h2>
+      </div>
+
+      <div class="card" data-aos="fade-up">
+        <!-- ============ SIKLUS 1 ============ -->
+        <div class="card-block siklus-block">
+          <div class="siklus-head">
+            <span class="siklus-badge">Siklus 1</span>
+            <h3 class="block-title"><i class="fa-solid fa-seedling"></i> Dasar-Dasar Kuliner</h3>
+          </div>
+          <div class="analysis-grid">
+            <div class="analysis-item modul-item">
+              <h4><i class="fa-solid fa-file-lines"></i> Modul Ajar</h4>
+              <div class="modul-box">
+                <div class="modul-actions" data-nama="Modul Ajar Siklus 1 — Dasar-Dasar Kuliner">
+                  <label class="btn-upload" for="upload1">
+                    <i class="fa-solid fa-cloud-arrow-up"></i> Upload Modul
+                  </label>
+                  <input type="file" id="upload1" class="upload-input" accept=".pdf,.doc,.docx,.ppt,.pptx" data-target="modul-frame-1">
+                  <a href="#" class="btn-lihat" id="lihat1" hidden target="_blank" rel="noopener"><i class="fa-solid fa-up-right-from-square"></i> Buka di Tab Baru</a>
+                </div>
+                <p class="modul-hint" id="hint1"><i class="fa-solid fa-circle-info"></i> Modul belum diunggah. Klik <strong>Upload Modul</strong> untuk memilih file dari komputer/HP Anda.</p>
+                <div class="modul-embed" hidden>
+                  <div class="btn-row">
+                    <button type="button" class="btn-full" data-zoom="modul-frame-1"><i class="fa-solid fa-expand"></i> Lihat Modul Ajar</button>
+                  </div>
+                  <iframe class="modul-frame" id="modul-frame-1" title="Modul Ajar Siklus 1"
+                          data-src="assets/dokumen/modul-ajar-siklus-1.pdf" hidden></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="analysis-item plus">
+              <h4><i class="fa-solid fa-circle-check"></i> Kelebihan</h4>
+              <p>Rancangan pembelajaran telah menghubungkan tujuan, materi, kegiatan, dan asesmen. Model PBL, diskusi, permainan, LKPD, serta media visual mendukung keterlibatan aktif peserta didik.</p>
+            </div>
+            <div class="analysis-item minus">
+              <h4><i class="fa-solid fa-circle-minus"></i> Kekurangan</h4>
+              <p>Alokasi waktu belum sesuai dengan rincian kegiatan. Pembelajaran berdiferensiasi belum dijelaskan secara operasional, sedangkan instrumen asesmen dan rubrik penilaian belum mencakup seluruh kompetensi yang direncanakan.</p>
+            </div>
+            <div class="analysis-item fix">
+              <h4><i class="fa-solid fa-arrows-rotate"></i> Perbaikan</h4>
+              <p>Perbaikan dilakukan dengan menyesuaikan alokasi waktu, memperjelas diferensiasi, menyelaraskan instrumen asesmen dengan tujuan pembelajaran, melengkapi rubrik, dan menyiapkan media serta perangkat pembelajaran sebelum kegiatan dimulai.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ============ SIKLUS 2 ============ -->
+        <div class="card-block siklus-block">
+          <div class="siklus-head">
+            <span class="siklus-badge">Siklus 2</span>
+            <h3 class="block-title"><i class="fa-solid fa-seedling"></i> Peralatan Pengolahan Makanan</h3>
+          </div>
+          <div class="analysis-grid">
+            <div class="analysis-item modul-item">
+              <h4><i class="fa-solid fa-file-lines"></i> Modul Ajar</h4>
+              <div class="modul-box">
+                <div class="modul-actions" data-nama="Modul Ajar Siklus 2 — Peralatan Pengolahan Makanan">
+                  <label class="btn-upload" for="upload2">
+                    <i class="fa-solid fa-cloud-arrow-up"></i> Upload Modul
+                  </label>
+                  <input type="file" id="upload2" class="upload-input" accept=".pdf,.doc,.docx,.ppt,.pptx" data-target="modul-frame-2">
+                  <a href="#" class="btn-lihat" id="lihat2" hidden target="_blank" rel="noopener"><i class="fa-solid fa-up-right-from-square"></i> Buka di Tab Baru</a>
+                </div>
+                <p class="modul-hint" id="hint2"><i class="fa-solid fa-circle-info"></i> Modul belum diunggah. Klik <strong>Upload Modul</strong> untuk memilih file dari komputer/HP Anda.</p>
+                <div class="modul-embed" hidden>
+                  <div class="btn-row">
+                    <button type="button" class="btn-full" data-zoom="modul-frame-2"><i class="fa-solid fa-expand"></i> Lihat Modul Ajar</button>
+                  </div>
+                  <iframe class="modul-frame" id="modul-frame-2" title="Modul Ajar Siklus 2"
+                          data-src="assets/dokumen/modul-ajar-siklus-2.pdf" hidden></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="analysis-item plus">
+              <h4><i class="fa-solid fa-circle-check"></i> Kelebihan</h4>
+              <p>Rancangan menggunakan model PBL dengan kegiatan Mix Match, gallery walk, pengamatan peralatan, studi kasus, dan presentasi. Kegiatan tersebut mendukung pemahaman fungsi peralatan dapur, kolaborasi, berpikir kritis, dan penerapan K3.</p>
+            </div>
+            <div class="analysis-item minus">
+              <h4><i class="fa-solid fa-circle-minus"></i> Kekurangan</h4>
+              <p>Capaian pembelajaran belum lengkap. Penerapan diferensiasi dan K3 belum terperinci, sintaks PBL belum konsisten, rumus penskoran rubrik belum sesuai, serta pembagian waktu setiap pertemuan belum jelas.</p>
+            </div>
+            <div class="analysis-item fix">
+              <h4><i class="fa-solid fa-arrows-rotate"></i> Perbaikan</h4>
+              <p>Perbaikan dilakukan dengan melengkapi capaian pembelajaran, memperjelas diferensiasi dan prosedur K3, menyusun sintaks PBL secara runtut, memperbaiki rumus penilaian, serta membagi alokasi waktu sesuai kegiatan.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ============ SIKLUS 3 ============ -->
+        <div class="card-block siklus-block">
+          <div class="siklus-head">
+            <span class="siklus-badge">Siklus 3</span>
+            <h3 class="block-title"><i class="fa-solid fa-seedling"></i> Hidangan Sup dan Soto</h3>
+          </div>
+          <div class="analysis-grid">
+            <div class="analysis-item modul-item">
+              <h4><i class="fa-solid fa-file-lines"></i> Modul Ajar</h4>
+              <div class="modul-box">
+                <div class="modul-actions" data-nama="Modul Ajar Siklus 3 — Hidangan Sup dan Soto">
+                  <label class="btn-upload" for="upload3">
+                    <i class="fa-solid fa-cloud-arrow-up"></i> Upload Modul
+                  </label>
+                  <input type="file" id="upload3" class="upload-input" accept=".pdf,.doc,.docx,.ppt,.pptx" data-target="modul-frame-3">
+                  <a href="#" class="btn-lihat" id="lihat3" hidden target="_blank" rel="noopener"><i class="fa-solid fa-up-right-from-square"></i> Buka di Tab Baru</a>
+                </div>
+                <p class="modul-hint" id="hint3"><i class="fa-solid fa-circle-info"></i> Modul belum diunggah. Klik <strong>Upload Modul</strong> untuk memilih file dari komputer/HP Anda.</p>
+                <div class="modul-embed" hidden>
+                  <div class="btn-row">
+                    <button type="button" class="btn-full" data-zoom="modul-frame-3"><i class="fa-solid fa-expand"></i> Lihat Modul Ajar</button>
+                  </div>
+                  <iframe class="modul-frame" id="modul-frame-3" title="Modul Ajar Siklus 3"
+                          data-src="assets/dokumen/modul-ajar-siklus-3.pdf" hidden></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="analysis-item plus">
+              <h4><i class="fa-solid fa-circle-check"></i> Kelebihan</h4>
+              <p>Rancangan pembelajaran mengaitkan materi dengan hidangan khas Indonesia melalui model PBL, diskusi, studi kasus, video, dan presentasi. LKPD serta rubrik penilaian membantu mengarahkan kegiatan analisis peserta didik.</p>
+            </div>
+            <div class="analysis-item minus">
+              <h4><i class="fa-solid fa-circle-minus"></i> Kekurangan</h4>
+              <p>Alokasi waktu tidak sesuai dengan rincian kegiatan. Kegiatan lebih berfokus pada analisis daripada praktik memasak, diferensiasi belum terperinci, dan instrumen asesmen belum mencakup seluruh kompetensi yang ditargetkan.</p>
+            </div>
+            <div class="analysis-item fix">
+              <h4><i class="fa-solid fa-arrows-rotate"></i> Perbaikan</h4>
+              <p>Perbaikan dilakukan dengan menyesuaikan waktu, menyelaraskan tujuan dan asesmen, menambahkan praktik memasak apabila menjadi target pembelajaran, memperjelas sintaks PBL, serta melengkapi rubrik dan asesmen diagnostik.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ============ SIKLUS 4 ============ -->
+        <div class="card-block siklus-block">
+          <div class="siklus-head">
+            <span class="siklus-badge">Siklus 4</span>
+            <h3 class="block-title"><i class="fa-solid fa-seedling"></i> Keamanan Pangan</h3>
+          </div>
+          <div class="analysis-grid">
+            <div class="analysis-item modul-item">
+              <h4><i class="fa-solid fa-file-lines"></i> Modul Ajar</h4>
+              <div class="modul-box">
+                <div class="modul-actions" data-nama="Modul Ajar Siklus 4 — Keamanan Pangan">
+                  <label class="btn-upload" for="upload4">
+                    <i class="fa-solid fa-cloud-arrow-up"></i> Upload Modul
+                  </label>
+                  <input type="file" id="upload4" class="upload-input" accept=".pdf,.doc,.docx,.ppt,.pptx" data-target="modul-frame-4">
+                  <a href="#" class="btn-lihat" id="lihat4" hidden target="_blank" rel="noopener"><i class="fa-solid fa-up-right-from-square"></i> Buka di Tab Baru</a>
+                </div>
+                <p class="modul-hint" id="hint4"><i class="fa-solid fa-circle-info"></i> Modul belum diunggah. Klik <strong>Upload Modul</strong> untuk memilih file dari komputer/HP Anda.</p>
+                <div class="modul-embed" hidden>
+                  <div class="btn-row">
+                    <button type="button" class="btn-full" data-zoom="modul-frame-4"><i class="fa-solid fa-expand"></i> Lihat Modul Ajar</button>
+                  </div>
+                  <iframe class="modul-frame" id="modul-frame-4" title="Modul Ajar Siklus 4"
+                          data-src="assets/dokumen/modul-ajar-siklus-4.pdf" hidden></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="analysis-item plus">
+              <h4><i class="fa-solid fa-circle-check"></i> Kelebihan</h4>
+              <p>Rancangan pembelajaran disusun secara bertahap menggunakan model PBL dan studi kasus. Kegiatan mencakup identifikasi bahaya, kontaminasi silang, kebersihan, penyimpanan bahan, serta penyusunan HACCP dengan asesmen yang bervariasi.</p>
+            </div>
+            <div class="analysis-item minus">
+              <h4><i class="fa-solid fa-circle-minus"></i> Kekurangan</h4>
+              <p>Capaian pembelajaran belum final. Materi HACCP, batas kritis, indikator penilaian, dan penerapan diferensiasi masih perlu diperjelas. Kegiatan analisis HACCP juga membutuhkan waktu dan pendampingan yang memadai.</p>
+            </div>
+            <div class="analysis-item fix">
+              <h4><i class="fa-solid fa-arrows-rotate"></i> Perbaikan</h4>
+              <p>Perbaikan dilakukan dengan memverifikasi capaian pembelajaran, melengkapi contoh penerapan HACCP, memperjelas batas kritis dan indikator penilaian, memberikan pendampingan bertahap, serta menyiapkan media, LKPD, dan asesmen secara sistematis.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ANALISIS MATERI ============ -->
+    <section id="materi" class="section">
+      <div class="section-heading" data-aos="fade-up">
+        <h2><i class="fa-solid fa-book"></i> Analisis Materi Pembelajaran</h2>
+      </div>
+
+      <div class="card" data-aos="fade-up">
+        <!-- ============ SIKLUS 1 ============ -->
+        <div class="card-block siklus-block">
+          <div class="siklus-head">
+            <span class="siklus-badge">Siklus 1</span>
+            <h3 class="block-title"><i class="fa-solid fa-seedling"></i> Bahan Makanan Nabati dan Kandungan Gizinya</h3>
+          </div>
+          <div class="materi-layout">
+            <div class="materi-analisis">
+              <div class="analysis-item">
+                <h4><i class="fa-solid fa-lightbulb"></i> 1. Analisis Materi Pembelajaran</h4>
+                <p>Materi mencakup klasifikasi bahan makanan nabati, karakteristik, kandungan gizi, serta penerapannya dalam penyusunan menu sehat.</p>
+              </div>
+              <div class="analysis-item">
+                <h4><i class="fa-solid fa-bullseye"></i> 2. Analisis Tujuan Pembelajaran</h4>
+                <p>Tujuan pembelajaran menekankan kemampuan mengidentifikasi bahan makanan nabati, menganalisis kandungan gizi, dan menyusun menu sehat. Indikator keberhasilan perlu dibuat lebih terukur.</p>
+              </div>
+              <div class="analysis-item">
+                <h4><i class="fa-solid fa-person-chalkboard"></i> 3. Analisis Implementasi Materi Pembelajaran</h4>
+                <p>Pembelajaran menggunakan model PBL melalui pengamatan, permainan tebak gizi, diskusi, LKPD, analisis kasus, dan presentasi rancangan menu sehat.</p>
+              </div>
+              <div class="analysis-item plus">
+                <h4><i class="fa-solid fa-scale-balanced"></i> 4. Analisis Kesesuaian Materi Pembelajaran</h4>
+                <p><strong>Kelebihan:</strong> Materi sesuai dengan tujuan, dekat dengan kehidupan sehari-hari, dan didukung kegiatan serta asesmen yang bervariasi.</p>
+                <p><strong>Kekurangan:</strong> Cakupan materi cukup luas, indikator belum terukur, fokus materi perlu diperjelas, instrumen asesmen belum konsisten, dan alokasi waktu tidak sesuai.</p>
+              </div>
+              <div class="analysis-item fix">
+                <h4><i class="fa-solid fa-pen-ruler"></i> 5. Revisi Materi Pembelajaran</h4>
+                <p>Revisi mencakup pemilihan materi esensial, penyusunan indikator terukur, penambahan tabel kandungan gizi, penyempurnaan asesmen, penyesuaian waktu, dan pemberian pendampingan sesuai kebutuhan peserta didik.</p>
+              </div>
+              <div class="analysis-item kesimpulan">
+                <h4><i class="fa-solid fa-flag-checkered"></i> 6. Kesimpulan</h4>
+                <p>Materi telah sesuai dengan tujuan pembelajaran, tetapi masih memerlukan perbaikan pada cakupan materi, indikator, asesmen, dan alokasi waktu agar pembelajaran lebih terarah.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ============ SIKLUS 2 ============ -->
+        <div class="card-block siklus-block">
+          <div class="siklus-head">
+            <span class="siklus-badge">Siklus 2</span>
+            <h3 class="block-title"><i class="fa-solid fa-utensils"></i> Peralatan Pengolahan Makanan</h3>
+          </div>
+          <div class="materi-layout">
+            <div class="materi-analisis">
+              <div class="analysis-item">
+                <h4><i class="fa-solid fa-lightbulb"></i> 1. Analisis Materi Pembelajaran</h4>
+                <p>Materi membahas jenis, fungsi, karakteristik, penggunaan, pemeliharaan peralatan dapur, serta penerapan K3 dalam pengolahan makanan.</p>
+              </div>
+              <div class="analysis-item">
+                <h4><i class="fa-solid fa-bullseye"></i> 2. Analisis Tujuan Pembelajaran</h4>
+                <p>Tujuan pembelajaran mengarahkan peserta didik untuk menganalisis dan merancang kebutuhan peralatan berdasarkan menu, fungsi alat, karakteristik, pemeliharaan, dan keselamatan kerja.</p>
+              </div>
+              <div class="analysis-item">
+                <h4><i class="fa-solid fa-person-chalkboard"></i> 3. Analisis Implementasi Materi Pembelajaran</h4>
+                <p>Pembelajaran menggunakan PBL melalui permainan Mix Match, gallery walk, pengamatan alat, diskusi, studi kasus K3, perancangan kebutuhan peralatan, dan presentasi.</p>
+              </div>
+              <div class="analysis-item plus">
+                <h4><i class="fa-solid fa-scale-balanced"></i> 4. Analisis Kesesuaian Materi Pembelajaran</h4>
+                <p><strong>Kelebihan:</strong> Materi sesuai dengan kebutuhan bidang kuliner, bersifat konkret, mendukung pemecahan masalah, dan memperkuat kolaborasi serta keselamatan kerja.</p>
+                <p><strong>Kekurangan:</strong> Capaian pembelajaran belum lengkap, diferensiasi belum operasional, sintaks PBL belum konsisten, rubrik penskoran tidak sesuai, prosedur K3 perlu diperjelas, dan pembagian waktu belum terperinci.</p>
+              </div>
+              <div class="analysis-item fix">
+                <h4><i class="fa-solid fa-pen-ruler"></i> 5. Revisi Materi Pembelajaran</h4>
+                <p>Revisi dilakukan dengan melengkapi capaian dan indikator, memperjelas diferensiasi, menata sintaks PBL, memperbaiki rubrik, memperkuat prosedur K3, mengatur waktu, dan menyelaraskan asesmen dengan kompetensi.</p>
+              </div>
+              <div class="analysis-item kesimpulan">
+                <h4><i class="fa-solid fa-flag-checkered"></i> 6. Kesimpulan</h4>
+                <p>Materi telah mendukung pemahaman dan penerapan pengetahuan tentang peralatan dapur. Perbaikan diperlukan pada kelengkapan capaian, diferensiasi, K3, sintaks pembelajaran, dan penilaian.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ============ SIKLUS 3 ============ -->
+        <div class="card-block siklus-block">
+          <div class="siklus-head">
+            <span class="siklus-badge">Siklus 3</span>
+            <h3 class="block-title"><i class="fa-solid fa-bowl-food"></i> Hidangan Sup dan Soto Indonesia</h3>
+          </div>
+          <div class="materi-layout">
+            <div class="materi-analisis">
+              <div class="analysis-item">
+                <h4><i class="fa-solid fa-lightbulb"></i> 1. Analisis Materi Pembelajaran</h4>
+                <p>Materi mencakup pengertian, fungsi, klasifikasi, bahan, bumbu, kriteria kualitas, dan teknik penyajian sup serta soto Indonesia.</p>
+              </div>
+              <div class="analysis-item">
+                <h4><i class="fa-solid fa-bullseye"></i> 2. Analisis Tujuan Pembelajaran</h4>
+                <p>Tujuan pembelajaran menekankan kemampuan menganalisis karakteristik sup dan soto serta menentukan bahan, bumbu, kualitas, dan teknik penyajian yang tepat. Keterampilan praktik perlu ditambahkan apabila menjadi target pembelajaran.</p>
+              </div>
+              <div class="analysis-item">
+                <h4><i class="fa-solid fa-person-chalkboard"></i> 3. Analisis Implementasi Materi Pembelajaran</h4>
+                <p>Pembelajaran menggunakan PBL melalui pengamatan gambar dan video, diskusi, LKPD, analisis bahan dan bumbu, perancangan pengolahan, presentasi, serta refleksi.</p>
+              </div>
+              <div class="analysis-item plus">
+                <h4><i class="fa-solid fa-scale-balanced"></i> 4. Analisis Kesesuaian Materi Pembelajaran</h4>
+                <p><strong>Kelebihan:</strong> Materi relevan dengan bidang kuliner, menggunakan contoh hidangan Indonesia, serta didukung aktivitas kontekstual dan kolaboratif.</p>
+                <p><strong>Kekurangan:</strong> Alokasi waktu tidak sesuai, tujuan belum sepenuhnya selaras dengan capaian, istilah teknis dan LKPD perlu diperiksa, diferensiasi belum terperinci, serta asesmen praktik belum lengkap.</p>
+              </div>
+              <div class="analysis-item fix">
+                <h4><i class="fa-solid fa-pen-ruler"></i> 5. Revisi Materi Pembelajaran</h4>
+                <p>Revisi dilakukan dengan menyesuaikan materi dan waktu, menyelaraskan tujuan dengan capaian, memperjelas istilah kuliner, menyempurnakan LKPD, menerapkan diferensiasi, melengkapi asesmen, dan memperkuat contoh hidangan lokal.</p>
+              </div>
+              <div class="analysis-item kesimpulan">
+                <h4><i class="fa-solid fa-flag-checkered"></i> 6. Kesimpulan</h4>
+                <p>Materi telah mencakup konsep penting mengenai sup dan soto Indonesia. Penyempurnaan diperlukan pada alokasi waktu, tujuan, istilah teknis, diferensiasi, dan asesmen agar pengetahuan serta keterampilan pengolahan dapat berkembang.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ============ SIKLUS 4 ============ -->
+        <div class="card-block siklus-block">
+          <div class="siklus-head">
+            <span class="siklus-badge">Siklus 4</span>
+            <h3 class="block-title"><i class="fa-solid fa-shield-heart"></i> Keamanan Pangan</h3>
+          </div>
+          <div class="materi-layout">
+            <div class="materi-analisis">
+              <div class="analysis-item">
+                <h4><i class="fa-solid fa-lightbulb"></i> 1. Analisis Materi Pembelajaran</h4>
+                <p>Materi mencakup konsep keamanan pangan, jenis bahaya, kontaminasi silang, penyakit bawaan makanan, kebersihan, penyimpanan bahan, dan tujuh prinsip HACCP.</p>
+              </div>
+              <div class="analysis-item">
+                <h4><i class="fa-solid fa-bullseye"></i> 2. Analisis Tujuan Pembelajaran</h4>
+                <p>Tujuan pembelajaran mengarahkan peserta didik untuk mengidentifikasi bahaya, menganalisis risiko, menentukan CCP dan batas kritis, serta menyusun rancangan HACCP sederhana.</p>
+              </div>
+              <div class="analysis-item">
+                <h4><i class="fa-solid fa-person-chalkboard"></i> 3. Analisis Implementasi Materi Pembelajaran</h4>
+                <p>Pembelajaran dilaksanakan melalui PBL, pengamatan video, diskusi kasus, LKPD, analisis CCP, penyusunan tabel HACCP, presentasi, dan asesmen.</p>
+              </div>
+              <div class="analysis-item plus">
+                <h4><i class="fa-solid fa-scale-balanced"></i> 4. Analisis Kesesuaian Materi Pembelajaran</h4>
+                <p><strong>Kelebihan:</strong> Materi tersusun sistematis, berkaitan dengan kehidupan sehari-hari, menggunakan kasus nyata, dan didukung asesmen yang beragam.</p>
+                <p><strong>Kekurangan:</strong> Capaian pembelajaran belum final, konsep HACCP cukup kompleks, batas kritis perlu diperjelas, indikator penilaian belum operasional, praktik langsung perlu diperkuat, dan pendampingan belum terperinci.</p>
+              </div>
+              <div class="analysis-item fix">
+                <h4><i class="fa-solid fa-pen-ruler"></i> 5. Revisi Materi Pembelajaran</h4>
+                <p>Revisi dilakukan dengan memverifikasi capaian pembelajaran, menyusun materi secara bertahap, memberikan contoh HACCP, memperjelas sumber batas kritis, memperkuat praktik keamanan pangan, melengkapi rubrik, dan menerapkan remedial serta pengayaan.</p>
+              </div>
+              <div class="analysis-item kesimpulan">
+                <h4><i class="fa-solid fa-flag-checkered"></i> 6. Kesimpulan</h4>
+                <p>Materi keamanan pangan telah mendukung kemampuan analisis dan pemecahan masalah. Perbaikan diperlukan pada capaian pembelajaran, penyederhanaan HACCP, batas kritis, asesmen, dan praktik agar pemahaman serta keterampilan peserta didik lebih optimal.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ANALISIS MEDIA PEMBELAJARAN ============ -->
+    <section id="media" class="section">
+      <div class="section-heading" data-aos="fade-up">
+        <h2><i class="fa-solid fa-display"></i> Analisis Media Pembelajaran</h2>
+      </div>
+
+      <div class="card" data-aos="fade-up">
+        <!-- ============ SIKLUS 1 ============ -->
+        <div class="card-block siklus-block">
+          <div class="siklus-head">
+            <span class="siklus-badge">Siklus 1</span>
+            <h3 class="block-title"><i class="fa-solid fa-seedling"></i> Bahan Makanan Nabati dan Kandungan Gizinya</h3>
+          </div>
+          <div class="media-pairs">
+            <!-- Kartu: Media PowerPoint (PPT) -->
+            <div class="media-pair">
+              <div class="media-pair-head">
+                <i class="fa-solid fa-file-powerpoint"></i>
+                <h4>Media PowerPoint (PPT)</h4>
+              </div>
+              <div class="media-pair-body">
+                <div class="media-pair-kiri">
+                  <p class="pair-label"><i class="fa-solid fa-photo-film"></i> Media</p>
+                  <div class="modul-box">
+                    <div class="modul-actions" data-nama="Siklus 1 — Media PowerPoint (PPT)">
+                      <label class="btn-upload" for="media-u1">
+                        <i class="fa-solid fa-cloud-arrow-up"></i> Upload Media
+                      </label>
+                      <input type="file" id="media-u1" class="upload-input" accept=".pdf,.jpg,.jpeg,.png,.webp,.mp4,.ppt,.pptx,.doc,.docx" data-target="media-frame-1" data-jenis="media">
+                    </div>
+                    <p class="modul-hint" id="hint-media-u1"><i class="fa-solid fa-circle-info"></i> Media belum diunggah. Klik <strong>Upload Media</strong> untuk memilih file (PPT, PDF, gambar, atau video) dari komputer/HP Anda.</p>
+                    <div class="modul-embed" hidden>
+                      <div class="btn-row">
+                        <button type="button" class="btn-full" data-zoom="media-frame-1"><i class="fa-solid fa-expand"></i> Lihat Media</button>
+                      </div>
+                      <iframe class="modul-frame" id="media-frame-1" title="Media Siklus 1 — PowerPoint" data-tampilan="ppt" hidden></iframe>
+                    </div>
+                  </div>
+                </div>
+                <div class="media-pair-kanan">
+                  <p class="pair-label"><i class="fa-solid fa-magnifying-glass-chart"></i> Analisis Media</p>
+                  <div class="analysis-item">
+                    <h4><i class="fa-solid fa-file-powerpoint"></i> PowerPoint (PPT)</h4>
+                    <p>PPT digunakan untuk menyajikan materi bahan makanan nabati beserta kandungan gizinya secara runtut dan visual. Slide berisi gambar bahan pangan, tabel kandungan gizi, serta contoh pengelompokannya sehingga peserta didik lebih mudah mengenali jenis bahan nabati dan memahami zat gizi yang dikandungnya. Media ini menjadi acuan utama saat penjelasan materi di kelas.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Kartu: Kuis Digital Wayground -->
+            <div class="media-pair">
+              <div class="media-pair-head">
+                <i class="fa-solid fa-square-poll-vertical"></i>
+                <h4>Kuis Digital Wayground</h4>
+              </div>
+              <div class="media-pair-body">
+                <div class="media-pair-kiri">
+                  <p class="pair-label"><i class="fa-solid fa-photo-film"></i> Media</p>
+                  <div class="modul-box">
+                    <div class="modul-actions" data-nama="Siklus 1 — Kuis Digital Wayground">
+                      <label class="btn-upload" for="media-u1b">
+                        <i class="fa-solid fa-cloud-arrow-up"></i> Upload Media
+                      </label>
+                      <input type="file" id="media-u1b" class="upload-input" accept=".pdf,.jpg,.jpeg,.png,.webp,.mp4,.ppt,.pptx,.doc,.docx" data-target="media-frame-1b" data-jenis="media">
+                    </div>
+                    <p class="modul-hint" id="hint-media-u1b"><i class="fa-solid fa-circle-info"></i> Media belum diunggah. Klik <strong>Upload Media</strong> untuk memilih file (PPT, PDF, gambar, atau video) dari komputer/HP Anda.</p>
+                    <div class="modul-embed" hidden>
+                      <div class="btn-row">
+                        <button type="button" class="btn-full" data-zoom="media-frame-1b"><i class="fa-solid fa-expand"></i> Lihat Media</button>
+                      </div>
+                      <iframe class="modul-frame" id="media-frame-1b" title="Media Siklus 1 — Kuis Wayground" hidden></iframe>
+                    </div>
+                  </div>
+                </div>
+                <div class="media-pair-kanan">
+                  <p class="pair-label"><i class="fa-solid fa-magnifying-glass-chart"></i> Analisis Media</p>
+                  <div class="analysis-item">
+                    <h4><i class="fa-solid fa-square-poll-vertical"></i> Kuis Digital Wayground</h4>
+                    <p>Kuis Wayground dipakai sebagai asesmen awal untuk memetakan pengetahuan awal peserta didik sebelum materi dibahas. Soal disajikan secara interaktif dan langsung memperlihatkan skor, sehingga guru dapat mengetahui sejauh mana pemahaman awal peserta didik terhadap bahan makanan nabati dan kandungan gizinya. Hasilnya dipakai sebagai dasar penyesuaian penjelasan pada pertemuan berikutnya.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ============ SIKLUS 2 ============ -->
+        <div class="card-block siklus-block">
+          <div class="siklus-head">
+            <span class="siklus-badge">Siklus 2</span>
+            <h3 class="block-title"><i class="fa-solid fa-utensils"></i> Peralatan Pengolahan Makanan</h3>
+          </div>
+          <div class="media-pairs">
+            <!-- Kartu: Peralatan Dapur Asli -->
+            <div class="media-pair">
+              <div class="media-pair-head">
+                <i class="fa-solid fa-kitchen-set"></i>
+                <h4>Peralatan Dapur Asli</h4>
+              </div>
+              <div class="media-pair-body">
+                <div class="media-pair-kiri">
+                  <p class="pair-label"><i class="fa-solid fa-photo-film"></i> Media</p>
+                  <div class="modul-box">
+                    <div class="modul-actions" data-nama="Siklus 2 — Peralatan Dapur Asli">
+                      <label class="btn-upload" for="media-u2">
+                        <i class="fa-solid fa-cloud-arrow-up"></i> Upload Media
+                      </label>
+                      <input type="file" id="media-u2" class="upload-input" accept=".pdf,.jpg,.jpeg,.png,.webp,.mp4,.ppt,.pptx,.doc,.docx" data-target="media-frame-2" data-jenis="media">
+                    </div>
+                    <p class="modul-hint" id="hint-media-u2"><i class="fa-solid fa-circle-info"></i> Media belum diunggah. Klik <strong>Upload Media</strong> untuk memilih file (PPT, PDF, gambar, atau video) dari komputer/HP Anda.</p>
+                    <div class="modul-embed" hidden>
+                      <div class="btn-row">
+                        <button type="button" class="btn-full" data-zoom="media-frame-2"><i class="fa-solid fa-expand"></i> Lihat Media</button>
+                      </div>
+                      <iframe class="modul-frame" id="media-frame-2" title="Media Siklus 2 — Peralatan Dapur" hidden></iframe>
+                    </div>
+                  </div>
+                </div>
+                <div class="media-pair-kanan">
+                  <p class="pair-label"><i class="fa-solid fa-magnifying-glass-chart"></i> Analisis Media</p>
+                  <div class="analysis-item">
+                    <h4><i class="fa-solid fa-kitchen-set"></i> Peralatan Dapur Asli</h4>
+                    <p>Media peralatan dapur asli berupa kitchen equipment dan kitchen utensils dihadirkan langsung di ruang praktik. Peserta didik dapat melihat, memegang, dan mencoba setiap alat, sehingga pengenalan nama, bentuk, dan fungsi peralatan berlangsung lebih konkret dibanding hanya melihat gambar. Media ini juga melatih ketelitian dalam memilih alat yang tepat sesuai jenis olahan.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Kartu: LKPD Berbasis Pos -->
+            <div class="media-pair">
+              <div class="media-pair-head">
+                <i class="fa-solid fa-tablet-screen-button"></i>
+                <h4>LKPD Berbasis Pos</h4>
+              </div>
+              <div class="media-pair-body">
+                <div class="media-pair-kiri">
+                  <p class="pair-label"><i class="fa-solid fa-photo-film"></i> Media</p>
+                  <div class="modul-box">
+                    <div class="modul-actions" data-nama="Siklus 2 — LKPD Berbasis Pos">
+                      <label class="btn-upload" for="media-u2b">
+                        <i class="fa-solid fa-cloud-arrow-up"></i> Upload Media
+                      </label>
+                      <input type="file" id="media-u2b" class="upload-input" accept=".pdf,.jpg,.jpeg,.png,.webp,.mp4,.ppt,.pptx,.doc,.docx" data-target="media-frame-2b" data-jenis="media">
+                    </div>
+                    <p class="modul-hint" id="hint-media-u2b"><i class="fa-solid fa-circle-info"></i> Media belum diunggah. Klik <strong>Upload Media</strong> untuk memilih file (PPT, PDF, gambar, atau video) dari komputer/HP Anda.</p>
+                    <div class="modul-embed" hidden>
+                      <div class="btn-row">
+                        <button type="button" class="btn-full" data-zoom="media-frame-2b"><i class="fa-solid fa-expand"></i> Lihat Media</button>
+                      </div>
+                      <iframe class="modul-frame" id="media-frame-2b" title="Media Siklus 2 — LKPD Berbasis Pos" hidden></iframe>
+                    </div>
+                  </div>
+                </div>
+                <div class="media-pair-kanan">
+                  <p class="pair-label"><i class="fa-solid fa-magnifying-glass-chart"></i> Analisis Media</p>
+                  <div class="analysis-item">
+                    <h4><i class="fa-solid fa-tablet-screen-button"></i> LKPD Berbasis Pos</h4>
+                    <p>LKPD berbasis pos digunakan untuk pembelajaran berkelompok dengan beberapa titik kegiatan. Setiap pos memiliki tugas identifikasi peralatan dan kegunaannya, sehingga peserta didik berpindah secara terarah dan aktif berdiskusi bersama kelompoknya. Lembar ini menjadi bukti proses kerja peserta didik sekaligus alat penilaian sikap kerja sama dan ketelitian.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Kartu: Poster Studi Kasus K3 -->
+            <div class="media-pair">
+              <div class="media-pair-head">
+                <i class="fa-solid fa-helmet-safety"></i>
+                <h4>Poster Studi Kasus K3</h4>
+              </div>
+              <div class="media-pair-body">
+                <div class="media-pair-kiri">
+                  <p class="pair-label"><i class="fa-solid fa-photo-film"></i> Media</p>
+                  <div class="modul-box">
+                    <div class="modul-actions" data-nama="Siklus 2 — Poster Studi Kasus K3">
+                      <label class="btn-upload" for="media-u2c">
+                        <i class="fa-solid fa-cloud-arrow-up"></i> Upload Media
+                      </label>
+                      <input type="file" id="media-u2c" class="upload-input" accept=".pdf,.jpg,.jpeg,.png,.webp,.mp4,.ppt,.pptx,.doc,.docx" data-target="media-frame-2c" data-jenis="media">
+                    </div>
+                    <p class="modul-hint" id="hint-media-u2c"><i class="fa-solid fa-circle-info"></i> Media belum diunggah. Klik <strong>Upload Media</strong> untuk memilih file (PPT, PDF, gambar, atau video) dari komputer/HP Anda.</p>
+                    <div class="modul-embed" hidden>
+                      <div class="btn-row">
+                        <button type="button" class="btn-full" data-zoom="media-frame-2c"><i class="fa-solid fa-expand"></i> Lihat Media</button>
+                      </div>
+                      <iframe class="modul-frame" id="media-frame-2c" title="Media Siklus 2 — Poster K3" hidden></iframe>
+                    </div>
+                  </div>
+                </div>
+                <div class="media-pair-kanan">
+                  <p class="pair-label"><i class="fa-solid fa-magnifying-glass-chart"></i> Analisis Media</p>
+                  <div class="analysis-item">
+                    <h4><i class="fa-solid fa-helmet-safety"></i> Poster Studi Kasus K3</h4>
+                    <p>Poster studi kasus Keselamatan dan Kesehatan Kerja menampilkan situasi nyata kecelakaan kerja di dapur beserta cara pencegahannya. Poster dipasang di area praktik agar peserta didik terbiasa membaca dan menghubungkannya dengan pekerjaan yang sedang dilakukan. Media ini memperkuat kesadaran penerapan prinsip K3 sebagai bagian dari budaya kerja di dapur.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ============ SIKLUS 3 ============ -->
+        <div class="card-block siklus-block">
+          <div class="siklus-head">
+            <span class="siklus-badge">Siklus 3</span>
+            <h3 class="block-title"><i class="fa-solid fa-bowl-food"></i> Hidangan Sup dan Soto Indonesia</h3>
+          </div>
+          <div class="media-pairs">
+            <!-- Kartu: Media PowerPoint (PPT) -->
+            <div class="media-pair">
+              <div class="media-pair-head">
+                <i class="fa-solid fa-file-powerpoint"></i>
+                <h4>Media PowerPoint (PPT)</h4>
+              </div>
+              <div class="media-pair-body">
+                <div class="media-pair-kiri">
+                  <p class="pair-label"><i class="fa-solid fa-photo-film"></i> Media</p>
+                  <div class="modul-box">
+                    <div class="modul-actions" data-nama="Siklus 3 — Media PowerPoint (PPT)">
+                      <label class="btn-upload" for="media-u3">
+                        <i class="fa-solid fa-cloud-arrow-up"></i> Upload Media
+                      </label>
+                      <input type="file" id="media-u3" class="upload-input" accept=".pdf,.jpg,.jpeg,.png,.webp,.mp4,.ppt,.pptx,.doc,.docx" data-target="media-frame-3" data-jenis="media">
+                    </div>
+                    <p class="modul-hint" id="hint-media-u3"><i class="fa-solid fa-circle-info"></i> Media belum diunggah. Klik <strong>Upload Media</strong> untuk memilih file (PPT, PDF, gambar, atau video) dari komputer/HP Anda.</p>
+                    <div class="modul-embed" hidden>
+                      <div class="btn-row">
+                        <button type="button" class="btn-full" data-zoom="media-frame-3"><i class="fa-solid fa-expand"></i> Lihat Media</button>
+                      </div>
+                      <iframe class="modul-frame" id="media-frame-3" title="Media Siklus 3 — PowerPoint" data-tampilan="ppt" hidden></iframe>
+                    </div>
+                  </div>
+                </div>
+                <div class="media-pair-kanan">
+                  <p class="pair-label"><i class="fa-solid fa-magnifying-glass-chart"></i> Analisis Media</p>
+                  <div class="analysis-item">
+                    <h4><i class="fa-solid fa-file-powerpoint"></i> PowerPoint (PPT)</h4>
+                    <p>PPT dipakai untuk memaparkan klasifikasi sup dan soto Indonesia, bahan dan bumbu khas tiap daerah, kriteria kualitas, serta teknik penyajiannya. Penyajian slide dengan gambar hidangan memudahkan peserta didik membandingkan ciri khas tiap jenis sup dan soto. Media ini menjadi sumber informasi utama sebelum peserta didik melakukan identifikasi bahan secara mandiri.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Kartu: LKPD Identifikasi Bahan dan Bumbu -->
+            <div class="media-pair">
+              <div class="media-pair-head">
+                <i class="fa-solid fa-tablet-screen-button"></i>
+                <h4>LKPD Identifikasi Bahan dan Bumbu</h4>
+              </div>
+              <div class="media-pair-body">
+                <div class="media-pair-kiri">
+                  <p class="pair-label"><i class="fa-solid fa-photo-film"></i> Media</p>
+                  <div class="modul-box">
+                    <div class="modul-actions" data-nama="Siklus 3 — LKPD Identifikasi Bahan dan Bumbu">
+                      <label class="btn-upload" for="media-u3b">
+                        <i class="fa-solid fa-cloud-arrow-up"></i> Upload Media
+                      </label>
+                      <input type="file" id="media-u3b" class="upload-input" accept=".pdf,.jpg,.jpeg,.png,.webp,.mp4,.ppt,.pptx,.doc,.docx" data-target="media-frame-3b" data-jenis="media">
+                    </div>
+                    <p class="modul-hint" id="hint-media-u3b"><i class="fa-solid fa-circle-info"></i> Media belum diunggah. Klik <strong>Upload Media</strong> untuk memilih file (PPT, PDF, gambar, atau video) dari komputer/HP Anda.</p>
+                    <div class="modul-embed" hidden>
+                      <div class="btn-row">
+                        <button type="button" class="btn-full" data-zoom="media-frame-3b"><i class="fa-solid fa-expand"></i> Lihat Media</button>
+                      </div>
+                      <iframe class="modul-frame" id="media-frame-3b" title="Media Siklus 3 — LKPD Identifikasi Bahan dan Bumbu" hidden></iframe>
+                    </div>
+                  </div>
+                </div>
+                <div class="media-pair-kanan">
+                  <p class="pair-label"><i class="fa-solid fa-magnifying-glass-chart"></i> Analisis Media</p>
+                  <div class="analysis-item">
+                    <h4><i class="fa-solid fa-tablet-screen-button"></i> LKPD Identifikasi Bahan dan Bumbu</h4>
+                    <p>LKPD ini memandu peserta didik mengidentifikasi bahan dan bumbu yang digunakan pada hidangan sup dan soto, mulai dari nama, fungsi, sampai perkiraan takarannya. Melalui lembar ini peserta didik berlatih menganalisis hubungan antara bahan, bumbu, dan cita rasa hidangan. Hasil kerja LKPD menjadi dasar penilaian keterampilan analisis dan ketelitian peserta didik.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ============ SIKLUS 4 ============ -->
+        <div class="card-block siklus-block">
+          <div class="siklus-head">
+            <span class="siklus-badge">Siklus 4</span>
+            <h3 class="block-title"><i class="fa-solid fa-shield-heart"></i> Keamanan Pangan</h3>
+          </div>
+          <div class="media-pairs">
+            <!-- Kartu: Video HACCP -->
+            <div class="media-pair">
+              <div class="media-pair-head">
+                <i class="fa-solid fa-clapperboard"></i>
+                <h4>Video HACCP — Kupas Tuntas Penerapan HACCP di Industri Makanan</h4>
+              </div>
+              <div class="media-pair-body">
+                <div class="media-pair-kiri">
+                  <p class="pair-label"><i class="fa-solid fa-photo-film"></i> Media</p>
+                  <div class="modul-box">
+                    <div class="modul-actions" data-nama="Siklus 4 — Video HACCP">
+                      <label class="btn-upload" for="media-u4">
+                        <i class="fa-solid fa-cloud-arrow-up"></i> Upload Media
+                      </label>
+                      <input type="file" id="media-u4" class="upload-input" accept=".pdf,.jpg,.jpeg,.png,.webp,.mp4,.ppt,.pptx,.doc,.docx" data-target="media-frame-4" data-jenis="media">
+                    </div>
+                    <p class="modul-hint" id="hint-media-u4"><i class="fa-solid fa-circle-info"></i> Media belum diunggah. Klik <strong>Upload Media</strong> untuk memilih file (PPT, PDF, gambar, atau video) dari komputer/HP Anda.</p>
+                    <div class="modul-embed" hidden>
+                      <div class="btn-row">
+                        <button type="button" class="btn-full" data-zoom="media-frame-4"><i class="fa-solid fa-expand"></i> Lihat Media</button>
+                      </div>
+                      <iframe class="modul-frame" id="media-frame-4" title="Media Siklus 4 — Video HACCP" hidden></iframe>
+                    </div>
+                  </div>
+                </div>
+                <div class="media-pair-kanan">
+                  <p class="pair-label"><i class="fa-solid fa-magnifying-glass-chart"></i> Analisis Media</p>
+                  <div class="analysis-item">
+                    <h4><i class="fa-solid fa-clapperboard"></i> Video HACCP</h4>
+                    <p>Video berjudul “Kupas Tuntas Penerapan HACCP di Industri Makanan” menampilkan penerapan HACCP secara nyata di industri, mulai dari identifikasi bahaya, penentuan titik kendali kritis (CCP), sampai pengendalian risikonya. Melalui tayangan ini peserta didik melihat langsung alur kerja yang sulit diamati di dapur sekolah, sehingga konsep keamanan pangan menjadi lebih konkret. Video diputar sebelum diskusi agar peserta didik memiliki gambaran utuh.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Kartu: LKPD Menyelidiki Keamanan Pangan dengan HACCP -->
+            <div class="media-pair">
+              <div class="media-pair-head">
+                <i class="fa-solid fa-tablet-screen-button"></i>
+                <h4>LKPD Menyelidiki Keamanan Pangan dengan HACCP</h4>
+              </div>
+              <div class="media-pair-body">
+                <div class="media-pair-kiri">
+                  <p class="pair-label"><i class="fa-solid fa-photo-film"></i> Media</p>
+                  <div class="modul-box">
+                    <div class="modul-actions" data-nama="Siklus 4 — LKPD Menyelidiki Keamanan Pangan dengan HACCP">
+                      <label class="btn-upload" for="media-u4b">
+                        <i class="fa-solid fa-cloud-arrow-up"></i> Upload Media
+                      </label>
+                      <input type="file" id="media-u4b" class="upload-input" accept=".pdf,.jpg,.jpeg,.png,.webp,.mp4,.ppt,.pptx,.doc,.docx" data-target="media-frame-4b" data-jenis="media">
+                    </div>
+                    <p class="modul-hint" id="hint-media-u4b"><i class="fa-solid fa-circle-info"></i> Media belum diunggah. Klik <strong>Upload Media</strong> untuk memilih file (PPT, PDF, gambar, atau video) dari komputer/HP Anda.</p>
+                    <div class="modul-embed" hidden>
+                      <div class="btn-row">
+                        <button type="button" class="btn-full" data-zoom="media-frame-4b"><i class="fa-solid fa-expand"></i> Lihat Media</button>
+                      </div>
+                      <iframe class="modul-frame" id="media-frame-4b" title="Media Siklus 4 — LKPD HACCP" hidden></iframe>
+                    </div>
+                  </div>
+                </div>
+                <div class="media-pair-kanan">
+                  <p class="pair-label"><i class="fa-solid fa-magnifying-glass-chart"></i> Analisis Media</p>
+                  <div class="analysis-item">
+                    <h4><i class="fa-solid fa-tablet-screen-button"></i> LKPD Menyelidiki Keamanan Pangan dengan HACCP</h4>
+                    <p>LKPD ini memandu peserta didik menyelidiki bahaya pangan, kemungkinan kontaminasi silang, dan penentuan CCP pada suatu alur pengolahan makanan. Peserta didik mengisi tabel analisis berdasarkan video dan pengalaman praktik, lalu menyimpulkan cara pengendalian risikonya. Lembar ini menjadi alat penilaian kemampuan berpikir kritis dan penerapan prinsip keamanan pangan.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ANALISIS VIDEO MENGAJAR ============ -->
+    <section id="video-mengajar" class="section">
+      <div class="section-heading" data-aos="fade-up">
+        <h2><i class="fa-solid fa-video"></i> Analisis Video Mengajar</h2>
+      </div>
+
+      <div class="card" data-aos="fade-up">
+        <!-- ============ SIKLUS 1 ============ -->
+        <div class="card-block siklus-block">
+          <div class="siklus-head">
+            <span class="siklus-badge">Siklus 1</span>
+            <h3 class="block-title"><i class="fa-solid fa-seedling"></i> Bahan Makanan Nabati dan Kandungan Gizinya</h3>
+          </div>
+          <div class="media-pairs">
+            <div class="media-pair">
+              <div class="media-pair-head">
+                <i class="fa-solid fa-video"></i>
+                <h4>Video Praktik Mengajar Siklus 1</h4>
+              </div>
+              <div class="media-pair-body">
+                <div class="media-pair-kiri">
+                  <p class="pair-label"><i class="fa-solid fa-film"></i> Video</p>
+                  <div class="video-drive">
+                    <div class="video-drive-input">
+                      <input type="url" class="drive-link" id="drive-link-1" data-target="drive-frame-1" placeholder="Tempel link Google Drive video di sini...">
+                      <button type="button" class="btn-full" data-drive="drive-link-1"><i class="fa-solid fa-play"></i> Tampilkan</button>
+                    </div>
+                    <p class="video-drive-hint"><i class="fa-solid fa-circle-info"></i> Tempel link Google Drive (mis. https://drive.google.com/file/d/xxxx/view) lalu klik <strong>Tampilkan</strong>. Video akan tampil di sini.</p>
+                    <div class="video-drive-embed" hidden>
+                      <div class="btn-row">
+                        <button type="button" class="btn-full" data-zoom-frame="drive-frame-1"><i class="fa-solid fa-expand"></i> Lihat Video</button>
+                      </div>
+                      <iframe class="modul-frame" id="drive-frame-1" title="Video Siklus 1" allow="autoplay; encrypted-media" allowfullscreen hidden></iframe>
+                    </div>
+                  </div>
+                </div>
+                <div class="media-pair-kanan">
+                  <p class="pair-label"><i class="fa-solid fa-magnifying-glass-chart"></i> Analisis Video</p>
+                  <div class="analysis-item">
+                    <p>Video praktik pembelajaran Siklus 1 berfokus pada pengenalan bahan makanan nabati dan kandungan gizinya.</p>
+                    <p><strong>Pembukaan dan apersepsi.</strong> Guru diawali pembelajaran dengan apersepsi melalui pertanyaan tentang bahan makanan yang sering dijumpai dalam kehidupan sehari-hari.</p>
+                    <p><strong>Penyajian materi.</strong> Materi disampaikan menggunakan PowerPoint (PPT) yang membantu murid mengenali jenis dan kelompok bahan makanan nabati.</p>
+                    <p><strong>Asesmen awal.</strong> Kuis digital Wayground digunakan sebagai asesmen awal untuk mengetahui pengetahuan murid sebelum mempelajari materi.</p>
+                    <p><strong>Pelaksanaan dan temuan.</strong> Dalam pelaksanaannya, sebagian murid dapat mengikuti pembelajaran dengan baik, tetapi beberapa murid masih kurang memperhatikan penjelasan.</p>
+                    <p><strong>Refleksi dan tindak lanjut.</strong> Pengalaman ini menunjukkan pentingnya mengombinasikan media visual dengan aktivitas interaktif, seperti kuis dan pengamatan bahan makanan asli, agar keterlibatan murid lebih merata. Guru juga perlu meningkatkan pengelolaan kelas supaya tujuan pembelajaran dapat tercapai secara optimal.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ============ SIKLUS 2 ============ -->
+        <div class="card-block siklus-block">
+          <div class="siklus-head">
+            <span class="siklus-badge">Siklus 2</span>
+            <h3 class="block-title"><i class="fa-solid fa-utensils"></i> Peralatan Pengolahan Makanan</h3>
+          </div>
+          <div class="media-pairs">
+            <div class="media-pair">
+              <div class="media-pair-head">
+                <i class="fa-solid fa-video"></i>
+                <h4>Video Praktik Mengajar Siklus 2</h4>
+              </div>
+              <div class="media-pair-body">
+                <div class="media-pair-kiri">
+                  <p class="pair-label"><i class="fa-solid fa-film"></i> Video</p>
+                  <div class="video-drive">
+                    <div class="video-drive-input">
+                      <input type="url" class="drive-link" id="drive-link-2" data-target="drive-frame-2" placeholder="Tempel link Google Drive video di sini...">
+                      <button type="button" class="btn-full" data-drive="drive-link-2"><i class="fa-solid fa-play"></i> Tampilkan</button>
+                    </div>
+                    <p class="video-drive-hint"><i class="fa-solid fa-circle-info"></i> Tempel link Google Drive (mis. https://drive.google.com/file/d/xxxx/view) lalu klik <strong>Tampilkan</strong>. Video akan tampil di sini.</p>
+                    <div class="video-drive-embed" hidden>
+                      <div class="btn-row">
+                        <button type="button" class="btn-full" data-zoom-frame="drive-frame-2"><i class="fa-solid fa-expand"></i> Lihat Video</button>
+                      </div>
+                      <iframe class="modul-frame" id="drive-frame-2" title="Video Siklus 2" allow="autoplay; encrypted-media" allowfullscreen hidden></iframe>
+                    </div>
+                  </div>
+                </div>
+                <div class="media-pair-kanan">
+                  <p class="pair-label"><i class="fa-solid fa-magnifying-glass-chart"></i> Analisis Video</p>
+                  <div class="analysis-item">
+                    <p>Video praktik pembelajaran Siklus 2 menunjukkan kegiatan pembelajaran praktik yang berkaitan dengan penggunaan peralatan pengolahan makanan dan teknik potongan sayuran.</p>
+                    <p><strong>Pembukaan dan pengaitan materi.</strong> Guru diawali pembelajaran dengan menghubungkan materi dengan contoh potongan sayuran pada hidangan sehari-hari serta mengingatkan kembali penggunaan pisau dan talenan secara aman.</p>
+                    <p><strong>Demo dan praktik terbimbing.</strong> Selanjutnya, guru mendemonstrasikan teknik potongan sayuran menggunakan bahan dan peralatan asli, kemudian membimbing murid melakukan praktik melalui lembar kerja.</p>
+                    <p><strong>Kendala pada pelaksanaan awal.</strong> Kegiatan praktik menghadapi kendala berupa kelas yang ramai, hasil potongan yang belum seragam, dan kurangnya tanggung jawab dalam membersihkan peralatan.</p>
+                    <p><strong>Perbaikan pada pertemuan berikutnya.</strong> Pemberian arahan tentang keselamatan kerja dan kebersihan sebelum praktik membantu kegiatan berjalan lebih tertib.</p>
+                    <p><strong>Refleksi dan tindak lanjut.</strong> Pengalaman ini menegaskan pentingnya demonstrasi bertahap, pembagian tugas kelompok, pengawasan yang merata, serta tanggung jawab setiap murid terhadap kebersihan peralatan dan dapur.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ============ SIKLUS 3 ============ -->
+        <div class="card-block siklus-block">
+          <div class="siklus-head">
+            <span class="siklus-badge">Siklus 3</span>
+            <h3 class="block-title"><i class="fa-solid fa-bowl-food"></i> Hidangan Sup dan Soto Indonesia</h3>
+          </div>
+          <div class="media-pairs">
+            <div class="media-pair">
+              <div class="media-pair-head">
+                <i class="fa-solid fa-video"></i>
+                <h4>Video Praktik Mengajar Siklus 3</h4>
+              </div>
+              <div class="media-pair-body">
+                <div class="media-pair-kiri">
+                  <p class="pair-label"><i class="fa-solid fa-film"></i> Video</p>
+                  <div class="video-drive">
+                    <div class="video-drive-input">
+                      <input type="url" class="drive-link" id="drive-link-3" data-target="drive-frame-3" placeholder="Tempel link Google Drive video di sini...">
+                      <button type="button" class="btn-full" data-drive="drive-link-3"><i class="fa-solid fa-play"></i> Tampilkan</button>
+                    </div>
+                    <p class="video-drive-hint"><i class="fa-solid fa-circle-info"></i> Tempel link Google Drive (mis. https://drive.google.com/file/d/xxxx/view) lalu klik <strong>Tampilkan</strong>. Video akan tampil di sini.</p>
+                    <div class="video-drive-embed" hidden>
+                      <div class="btn-row">
+                        <button type="button" class="btn-full" data-zoom-frame="drive-frame-3"><i class="fa-solid fa-expand"></i> Lihat Video</button>
+                      </div>
+                      <iframe class="modul-frame" id="drive-frame-3" title="Video Siklus 3" allow="autoplay; encrypted-media" allowfullscreen hidden></iframe>
+                    </div>
+                  </div>
+                </div>
+                <div class="media-pair-kanan">
+                  <p class="pair-label"><i class="fa-solid fa-magnifying-glass-chart"></i> Analisis Video</p>
+                  <div class="analysis-item">
+                    <p>Pembelajaran Siklus 3 berfokus pada materi Hidangan Sup dan Soto Indonesia.</p>
+                    <p><strong>Apersepsi dan pengaitan materi.</strong> Guru menggunakan apersepsi untuk menghubungkan materi dengan pengalaman murid mengenal berbagai hidangan sup dan soto dalam kehidupan sehari-hari.</p>
+                    <p><strong>Kegiatan inti.</strong> Pada kegiatan inti, PowerPoint (PPT) digunakan untuk menjelaskan klasifikasi, bahan, bumbu, kriteria kualitas, dan teknik penyajian sup serta soto.</p>
+                    <p><strong>Penggunaan LKPD.</strong> LKPD identifikasi bahan dan bumbu membantu murid mengelompokkan bahan, memahami fungsinya, dan membandingkan karakteristik kedua hidangan.</p>
+                    <p><strong>Pelaksanaan dan temuan.</strong> Penggunaan media tersebut mendukung pemahaman murid terhadap materi kuliner.</p>
+                    <p><strong>Tindak lanjut.</strong> Pembelajaran selanjutnya dapat diperkuat melalui diskusi kelompok, pertanyaan analitis, dan pengamatan contoh hidangan agar murid lebih aktif serta mampu menghubungkan teori dengan praktik pengolahan makanan.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ============ SIKLUS 4 ============ -->
+        <div class="card-block siklus-block">
+          <div class="siklus-head">
+            <span class="siklus-badge">Siklus 4</span>
+            <h3 class="block-title"><i class="fa-solid fa-shield-heart"></i> Keamanan Pangan</h3>
+          </div>
+          <div class="media-pairs">
+            <div class="media-pair">
+              <div class="media-pair-head">
+                <i class="fa-solid fa-video"></i>
+                <h4>Video Praktik Mengajar Siklus 4</h4>
+              </div>
+              <div class="media-pair-body">
+                <div class="media-pair-kiri">
+                  <p class="pair-label"><i class="fa-solid fa-film"></i> Video</p>
+                  <div class="video-drive">
+                    <div class="video-drive-input">
+                      <input type="url" class="drive-link" id="drive-link-4" data-target="drive-frame-4" placeholder="Tempel link Google Drive video di sini...">
+                      <button type="button" class="btn-full" data-drive="drive-link-4"><i class="fa-solid fa-play"></i> Tampilkan</button>
+                    </div>
+                    <p class="video-drive-hint"><i class="fa-solid fa-circle-info"></i> Tempel link Google Drive (mis. https://drive.google.com/file/d/xxxx/view) lalu klik <strong>Tampilkan</strong>. Video akan tampil di sini.</p>
+                    <div class="video-drive-embed" hidden>
+                      <div class="btn-row">
+                        <button type="button" class="btn-full" data-zoom-frame="drive-frame-4"><i class="fa-solid fa-expand"></i> Lihat Video</button>
+                      </div>
+                      <iframe class="modul-frame" id="drive-frame-4" title="Video Siklus 4" allow="autoplay; encrypted-media" allowfullscreen hidden></iframe>
+                    </div>
+                  </div>
+                </div>
+                <div class="media-pair-kanan">
+                  <p class="pair-label"><i class="fa-solid fa-magnifying-glass-chart"></i> Analisis Video</p>
+                  <div class="analysis-item">
+                    <p><strong>Pembukaan dan apersepsi.</strong> Pelaksanaan pembelajaran materi Keamanan Pangan di kelas X Kuliner 1 diawali dengan apersepsi melalui pertanyaan mengenai pengalaman murid menemukan makanan basi dan pentingnya menjaga kebersihan saat praktik di dapur.</p>
+                    <p><strong>Kegiatan inti.</strong> Pada kegiatan inti, guru menjelaskan jenis bahaya pangan, yaitu biologis, kimia, dan fisik, serta pentingnya penerapan higiene dan sanitasi. Penggunaan gambar, tayangan, dan contoh kondisi dapur membantu menghubungkan materi dengan pengalaman sehari-hari murid.</p>
+                    <p><strong>Pelaksanaan dan temuan.</strong> Sebagian besar murid mengikuti pembelajaran dengan baik, meskipun beberapa masih perlu diingatkan agar tetap tertib dan aktif.</p>
+                    <p><strong>Penutup, refleksi, dan tindak lanjut.</strong> Pada kegiatan penutup, murid diarahkan untuk merefleksikan dan menyimpulkan materi. Secara keseluruhan, pembelajaran telah mengaitkan konsep keamanan pangan dengan situasi nyata di lingkungan kuliner. Pengembangan selanjutnya dapat dilakukan melalui kuis interaktif, diskusi studi kasus, dan praktik penerapan keamanan pangan agar keterlibatan murid meningkat serta pemahaman mereka dapat diterapkan dalam kegiatan pengolahan makanan.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ANALISIS KEGIATAN NONMENGAJAR ============ -->
+    <section id="nonmengajar" class="section">
+      <div class="section-heading" data-aos="fade-up">
+        <h2><i class="fa-solid fa-school"></i> Analisis Kegiatan Nonmengajar</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-dot"><i class="fa-solid fa-face-smile"></i></div>
+          <div class="timeline-content card kegiatan-dua-kolom">
+            
+            <div class="kegiatan-teks">
+              <span class="timeline-date">Kegiatan 1</span>
+            <h4>Kegiatan 3S (Senyum, Salam, Sapa)</h4>
+            <p class="block-text">Kegiatan 3S dilaksanakan setiap hari Rabu dan Jumat dengan menyambut kedatangan siswa melalui senyum, salam, dan sapa di lingkungan sekolah. Kegiatan ini bertujuan membangun suasana sekolah yang ramah, hangat, dan nyaman serta menanamkan nilai kesopanan dan kedisiplinan kepada siswa. Melalui kegiatan ini, mahasiswa PPL belajar meningkatkan kepedulian, komunikasi, dan kemampuan berinteraksi positif dengan warga sekolah.</p>
+            </div>
+            <div class="kegiatan-foto modul-box">
+              <div class="modul-actions">
+                <label class="btn-upload" for="foto-keg1"><i class="fa-solid fa-cloud-arrow-up"></i> Upload Foto</label>
+              </div>
+              <input type="file" id="foto-keg1" class="upload-input" accept=".jpg,.jpeg,.png,.webp" data-target="foto-frame-1" data-jenis="kegiatan">
+              <div class="modul-embed" hidden>
+                <div class="btn-row">
+                  <button type="button" class="btn-full" data-zoom="foto-frame-1"><i class="fa-solid fa-expand"></i> Lihat Foto</button>
+                </div>
+                <iframe class="modul-frame" id="foto-frame-1" title="Dokumentasi Kegiatan 3S" hidden></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-dot"><i class="fa-solid fa-broom"></i></div>
+          <div class="timeline-content card kegiatan-dua-kolom">
+            
+            <div class="kegiatan-teks">
+              <span class="timeline-date">Kegiatan 2</span>
+            <h4>Membersihkan Area Halaman Dapur</h4>
+            <p class="block-text">Kegiatan membersihkan area halaman dapur dilaksanakan setiap hari. Kegiatan ini bertujuan menjaga kebersihan, kerapian, dan kenyamanan lingkungan sekolah. Aktivitas ini juga menumbuhkan kesadaran akan pentingnya menjaga kebersihan lingkungan serta membangun kebiasaan bekerja sama dan bertanggung jawab.</p>
+            </div>
+            <div class="kegiatan-foto modul-box">
+              <div class="modul-actions">
+                <label class="btn-upload" for="foto-keg2"><i class="fa-solid fa-cloud-arrow-up"></i> Upload Foto</label>
+              </div>
+              <input type="file" id="foto-keg2" class="upload-input" accept=".jpg,.jpeg,.png,.webp" data-target="foto-frame-2" data-jenis="kegiatan">
+              <div class="modul-embed" hidden>
+                <div class="btn-row">
+                  <button type="button" class="btn-full" data-zoom="foto-frame-2"><i class="fa-solid fa-expand"></i> Lihat Foto</button>
+                </div>
+                <iframe class="modul-frame" id="foto-frame-2" title="Dokumentasi Membersihkan Area Halaman Dapur" hidden></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-dot"><i class="fa-solid fa-flag"></i></div>
+          <div class="timeline-content card kegiatan-dua-kolom">
+            
+            <div class="kegiatan-teks">
+              <span class="timeline-date">Kegiatan 3</span>
+            <h4>Mengikuti Upacara Bendera</h4>
+            <p class="block-text">Keikutsertaan dalam upacara bendera menjadi bagian dari kegiatan pembentukan karakter dan kedisiplinan di sekolah. Kegiatan ini menumbuhkan sikap nasionalisme, tanggung jawab, penghormatan terhadap simbol negara, serta keteladanan dalam mengikuti tata tertib sekolah.</p>
+            </div>
+            <div class="kegiatan-foto modul-box">
+              <div class="modul-actions">
+                <label class="btn-upload" for="foto-keg3"><i class="fa-solid fa-cloud-arrow-up"></i> Upload Foto</label>
+              </div>
+              <input type="file" id="foto-keg3" class="upload-input" accept=".jpg,.jpeg,.png,.webp" data-target="foto-frame-3" data-jenis="kegiatan">
+              <div class="modul-embed" hidden>
+                <div class="btn-row">
+                  <button type="button" class="btn-full" data-zoom="foto-frame-3"><i class="fa-solid fa-expand"></i> Lihat Foto</button>
+                </div>
+                <iframe class="modul-frame" id="foto-frame-3" title="Dokumentasi Upacara Bendera" hidden></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-dot"><i class="fa-solid fa-people-group"></i></div>
+          <div class="timeline-content card kegiatan-dua-kolom">
+            
+            <div class="kegiatan-teks">
+              <span class="timeline-date">Kegiatan 4</span>
+            <h4>Mengikuti Apel Pagi</h4>
+            <p class="block-text">Apel pagi merupakan kegiatan untuk membangun kedisiplinan, ketertiban, dan kesiapan warga sekolah sebelum melaksanakan aktivitas. Melalui kegiatan ini, mahasiswa PPL belajar menghargai waktu, mengikuti arahan, dan menyesuaikan diri dengan budaya kerja di lingkungan sekolah.</p>
+            </div>
+            <div class="kegiatan-foto modul-box">
+              <div class="modul-actions">
+                <label class="btn-upload" for="foto-keg4"><i class="fa-solid fa-cloud-arrow-up"></i> Upload Foto</label>
+              </div>
+              <input type="file" id="foto-keg4" class="upload-input" accept=".jpg,.jpeg,.png,.webp" data-target="foto-frame-4" data-jenis="kegiatan">
+              <div class="modul-embed" hidden>
+                <div class="btn-row">
+                  <button type="button" class="btn-full" data-zoom="foto-frame-4"><i class="fa-solid fa-expand"></i> Lihat Foto</button>
+                </div>
+                <iframe class="modul-frame" id="foto-frame-4" title="Dokumentasi Apel Pagi" hidden></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-dot"><i class="fa-solid fa-heart-pulse"></i></div>
+          <div class="timeline-content card kegiatan-dua-kolom">
+            
+            <div class="kegiatan-teks">
+              <span class="timeline-date">Kegiatan 5</span>
+            <h4>Mengikuti Kegiatan Senam</h4>
+            <p class="block-text">Kegiatan senam bersama mendukung pembiasaan hidup sehat dan meningkatkan kebugaran jasmani. Selain itu, kegiatan ini mempererat kebersamaan antarwarga sekolah dan memberikan contoh positif mengenai pentingnya menjaga kesehatan melalui aktivitas fisik.</p>
+            </div>
+            <div class="kegiatan-foto modul-box">
+              <div class="modul-actions">
+                <label class="btn-upload" for="foto-keg5"><i class="fa-solid fa-cloud-arrow-up"></i> Upload Foto</label>
+              </div>
+              <input type="file" id="foto-keg5" class="upload-input" accept=".jpg,.jpeg,.png,.webp" data-target="foto-frame-5" data-jenis="kegiatan">
+              <div class="modul-embed" hidden>
+                <div class="btn-row">
+                  <button type="button" class="btn-full" data-zoom="foto-frame-5"><i class="fa-solid fa-expand"></i> Lihat Foto</button>
+                </div>
+                <iframe class="modul-frame" id="foto-frame-5" title="Dokumentasi Kegiatan Senam" hidden></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-dot"><i class="fa-solid fa-mosque"></i></div>
+          <div class="timeline-content card kegiatan-dua-kolom">
+            
+            <div class="kegiatan-teks">
+              <span class="timeline-date">Kegiatan 6</span>
+            <h4>Mengikuti Peringatan Maulid Nabi Muhammad saw.</h4>
+            <p class="block-text">Kegiatan Maulid Nabi menjadi sarana untuk memperkuat nilai keagamaan dan pembentukan karakter. Melalui kegiatan ini, mahasiswa PPL memperoleh pengalaman dalam mengikuti kegiatan keagamaan sekolah serta memahami pentingnya menanamkan nilai keteladanan, akhlak mulia, dan kebersamaan.</p>
+            </div>
+            <div class="kegiatan-foto modul-box">
+              <div class="modul-actions">
+                <label class="btn-upload" for="foto-keg6"><i class="fa-solid fa-cloud-arrow-up"></i> Upload Foto</label>
+              </div>
+              <input type="file" id="foto-keg6" class="upload-input" accept=".jpg,.jpeg,.png,.webp" data-target="foto-frame-6" data-jenis="kegiatan">
+              <div class="modul-embed" hidden>
+                <div class="btn-row">
+                  <button type="button" class="btn-full" data-zoom="foto-frame-6"><i class="fa-solid fa-expand"></i> Lihat Foto</button>
+                </div>
+                <iframe class="modul-frame" id="foto-frame-6" title="Dokumentasi Peringatan Maulid Nabi" hidden></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-dot"><i class="fa-solid fa-book-quran"></i></div>
+          <div class="timeline-content card kegiatan-dua-kolom">
+            
+            <div class="kegiatan-teks">
+              <span class="timeline-date">Kegiatan 7</span>
+            <h4>Mengikuti Kegiatan Literasi Al-Qur'an</h4>
+            <p class="block-text">Kegiatan literasi Al-Qur'an mendukung pembiasaan membaca Al-Qur'an dan penguatan karakter religius di lingkungan sekolah. Kegiatan ini juga memberikan pengalaman kepada mahasiswa PPL mengenai pentingnya membangun budaya literasi keagamaan secara rutin.</p>
+            </div>
+            <div class="kegiatan-foto modul-box">
+              <div class="modul-actions">
+                <label class="btn-upload" for="foto-keg7"><i class="fa-solid fa-cloud-arrow-up"></i> Upload Foto</label>
+              </div>
+              <input type="file" id="foto-keg7" class="upload-input" accept=".jpg,.jpeg,.png,.webp" data-target="foto-frame-7" data-jenis="kegiatan">
+              <div class="modul-embed" hidden>
+                <div class="btn-row">
+                  <button type="button" class="btn-full" data-zoom="foto-frame-7"><i class="fa-solid fa-expand"></i> Lihat Foto</button>
+                </div>
+                <iframe class="modul-frame" id="foto-frame-7" title="Dokumentasi Literasi Al-Qur'an" hidden></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-dot"><i class="fa-solid fa-recycle"></i></div>
+          <div class="timeline-content card kegiatan-dua-kolom">
+            
+            <div class="kegiatan-teks">
+              <span class="timeline-date">Kegiatan 8</span>
+            <h4>Mengikuti Rapat Kebersihan dan Pengelolaan Sampah Plastik</h4>
+            <p class="block-text">Keikutsertaan dalam rapat terkait kebersihan dan sampah plastik memberikan pemahaman mengenai pentingnya koordinasi dan kerja sama dalam menjaga lingkungan sekolah. Kegiatan ini mendorong kesadaran terhadap pengurangan sampah plastik, pengelolaan sampah yang lebih baik, serta pembentukan kebiasaan hidup bersih dan peduli lingkungan.</p>
+            </div>
+            <div class="kegiatan-foto modul-box">
+              <div class="modul-actions">
+                <label class="btn-upload" for="foto-keg8"><i class="fa-solid fa-cloud-arrow-up"></i> Upload Foto</label>
+              </div>
+              <input type="file" id="foto-keg8" class="upload-input" accept=".jpg,.jpeg,.png,.webp" data-target="foto-frame-8" data-jenis="kegiatan">
+              <div class="modul-embed" hidden>
+                <div class="btn-row">
+                  <button type="button" class="btn-full" data-zoom="foto-frame-8"><i class="fa-solid fa-expand"></i> Lihat Foto</button>
+                </div>
+                <iframe class="modul-frame" id="foto-frame-8" title="Dokumentasi Rapat Kebersihan dan Sampah Plastik" hidden></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-dot"><i class="fa-solid fa-medal"></i></div>
+          <div class="timeline-content card kegiatan-dua-kolom">
+            
+            <div class="kegiatan-teks">
+              <span class="timeline-date">Kegiatan 9</span>
+            <h4>Mengikuti Kegiatan PORSENI</h4>
+            <p class="block-text">Kegiatan Pekan Olahraga dan Seni (PORSENI) menjadi sarana pengembangan minat, bakat, kreativitas, dan sportivitas siswa. Melalui keterlibatan dalam kegiatan ini, mahasiswa PPL memperoleh pengalaman dalam mendukung kegiatan sekolah yang mengembangkan potensi siswa di luar pembelajaran kelas.</p>
+            </div>
+            <div class="kegiatan-foto modul-box">
+              <div class="modul-actions">
+                <label class="btn-upload" for="foto-keg9"><i class="fa-solid fa-cloud-arrow-up"></i> Upload Foto</label>
+              </div>
+              <input type="file" id="foto-keg9" class="upload-input" accept=".jpg,.jpeg,.png,.webp" data-target="foto-frame-9" data-jenis="kegiatan">
+              <div class="modul-embed" hidden>
+                <div class="btn-row">
+                  <button type="button" class="btn-full" data-zoom="foto-frame-9"><i class="fa-solid fa-expand"></i> Lihat Foto</button>
+                </div>
+                <iframe class="modul-frame" id="foto-frame-9" title="Dokumentasi PORSENI" hidden></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-dot"><i class="fa-solid fa-comments"></i></div>
+          <div class="timeline-content card kegiatan-dua-kolom">
+            
+            <div class="kegiatan-teks">
+              <span class="timeline-date">Kegiatan 10</span>
+            <h4>Mengikuti Kegiatan Debat OSIS</h4>
+            <p class="block-text">Kegiatan debat OSIS memberikan pengalaman mengenai pengembangan kemampuan komunikasi, berpikir kritis, menyampaikan pendapat, dan menghargai perbedaan pandangan. Kegiatan ini juga menunjukkan pentingnya partisipasi siswa dalam organisasi serta pembentukan sikap demokratis dan bertanggung jawab.</p>
+            </div>
+            <div class="kegiatan-foto modul-box">
+              <div class="modul-actions">
+                <label class="btn-upload" for="foto-keg10"><i class="fa-solid fa-cloud-arrow-up"></i> Upload Foto</label>
+              </div>
+              <input type="file" id="foto-keg10" class="upload-input" accept=".jpg,.jpeg,.png,.webp" data-target="foto-frame-10" data-jenis="kegiatan">
+              <div class="modul-embed" hidden>
+                <div class="btn-row">
+                  <button type="button" class="btn-full" data-zoom="foto-frame-10"><i class="fa-solid fa-expand"></i> Lihat Foto</button>
+                </div>
+                <iframe class="modul-frame" id="foto-frame-10" title="Dokumentasi Debat OSIS" hidden></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ LAMPIRAN RANCANGAN & PRAKTIK PEMBELAJARAN ============ -->
+    <section id="instrumen" class="section">
+      <div class="section-heading" data-aos="fade-up">
+        <h2><i class="fa-solid fa-clipboard-check"></i> Rancangan Pembelajaran &amp; Praktik Pembelajaran Mandiri</h2>
+      </div>
+
+      <!-- ===== KARTU 1: LAMPIRAN 7 ===== -->
+      <div class="card instrumen-card" data-aos="fade-up">
+        <div class="instrumen-head">
+          <span class="instrumen-badge">Lampiran 7</span>
+          <h3><i class="fa-solid fa-file-pen"></i> Rancangan Pembelajaran</h3>
+        </div>
+
+        <div class="instrumen-grid">
+          <!-- Siklus 1 -->
+          <div class="instrumen-item">
+            <div class="instrumen-item-head">
+              <span class="siklus-badge">Siklus 1</span>
+              <h4><i class="fa-solid fa-seedling"></i> Dasar-Dasar Kuliner</h4>
+            </div>
+            <div class="modul-box">
+              <div class="modul-actions" data-nama="Lampiran 7 \u2014 Rancangan Pembelajaran Siklus 1">
+                <label class="btn-upload" for="inst7-1">
+                  <i class="fa-solid fa-cloud-arrow-up"></i> Upload Dokumen
+                </label>
+                <input type="file" id="inst7-1" class="upload-input" accept=".pdf,.doc,.docx" data-target="inst7-frame-1" data-jenis="dokumen">
+              </div>
+              <p class="modul-hint" id="hint-inst7-1"><i class="fa-solid fa-circle-info"></i> Dokumen belum diunggah. Klik <strong>Upload Dokumen</strong> untuk memilih file dari komputer/HP Anda.</p>
+              <div class="modul-embed" hidden>
+                <div class="btn-row">
+                  <button type="button" class="btn-full" data-zoom="inst7-frame-1"><i class="fa-solid fa-expand"></i> Lihat Berkas</button>
+                </div>
+                <iframe class="modul-frame" id="inst7-frame-1" title="Rancangan Pembelajaran Siklus 1" hidden></iframe>
+              </div>
+            </div>
+          </div>
+
+          <!-- Siklus 2 -->
+          <div class="instrumen-item">
+            <div class="instrumen-item-head">
+              <span class="siklus-badge">Siklus 2</span>
+              <h4><i class="fa-solid fa-utensils"></i> Peralatan Pengolahan Makanan</h4>
+            </div>
+            <div class="modul-box">
+              <div class="modul-actions" data-nama="Lampiran 7 \u2014 Rancangan Pembelajaran Siklus 2">
+                <label class="btn-upload" for="inst7-2">
+                  <i class="fa-solid fa-cloud-arrow-up"></i> Upload Dokumen
+                </label>
+                <input type="file" id="inst7-2" class="upload-input" accept=".pdf,.doc,.docx" data-target="inst7-frame-2" data-jenis="dokumen">
+              </div>
+              <p class="modul-hint" id="hint-inst7-2"><i class="fa-solid fa-circle-info"></i> Dokumen belum diunggah. Klik <strong>Upload Dokumen</strong> untuk memilih file dari komputer/HP Anda.</p>
+              <div class="modul-embed" hidden>
+                <div class="btn-row">
+                  <button type="button" class="btn-full" data-zoom="inst7-frame-2"><i class="fa-solid fa-expand"></i> Lihat Berkas</button>
+                </div>
+                <iframe class="modul-frame" id="inst7-frame-2" title="Rancangan Pembelajaran Siklus 2" hidden></iframe>
+              </div>
+            </div>
+          </div>
+
+          <!-- Siklus 3 -->
+          <div class="instrumen-item">
+            <div class="instrumen-item-head">
+              <span class="siklus-badge">Siklus 3</span>
+              <h4><i class="fa-solid fa-bowl-food"></i> Hidangan Sup dan Soto Indonesia</h4>
+            </div>
+            <div class="modul-box">
+              <div class="modul-actions" data-nama="Lampiran 7 \u2014 Rancangan Pembelajaran Siklus 3">
+                <label class="btn-upload" for="inst7-3">
+                  <i class="fa-solid fa-cloud-arrow-up"></i> Upload Dokumen
+                </label>
+                <input type="file" id="inst7-3" class="upload-input" accept=".pdf,.doc,.docx" data-target="inst7-frame-3" data-jenis="dokumen">
+              </div>
+              <p class="modul-hint" id="hint-inst7-3"><i class="fa-solid fa-circle-info"></i> Dokumen belum diunggah. Klik <strong>Upload Dokumen</strong> untuk memilih file dari komputer/HP Anda.</p>
+              <div class="modul-embed" hidden>
+                <div class="btn-row">
+                  <button type="button" class="btn-full" data-zoom="inst7-frame-3"><i class="fa-solid fa-expand"></i> Lihat Berkas</button>
+                </div>
+                <iframe class="modul-frame" id="inst7-frame-3" title="Rancangan Pembelajaran Siklus 3" hidden></iframe>
+              </div>
+            </div>
+          </div>
+
+          <!-- Siklus 4 -->
+          <div class="instrumen-item">
+            <div class="instrumen-item-head">
+              <span class="siklus-badge">Siklus 4</span>
+              <h4><i class="fa-solid fa-shield-heart"></i> Keamanan Pangan</h4>
+            </div>
+            <div class="modul-box">
+              <div class="modul-actions" data-nama="Lampiran 7 \u2014 Rancangan Pembelajaran Siklus 4">
+                <label class="btn-upload" for="inst7-4">
+                  <i class="fa-solid fa-cloud-arrow-up"></i> Upload Dokumen
+                </label>
+                <input type="file" id="inst7-4" class="upload-input" accept=".pdf,.doc,.docx" data-target="inst7-frame-4" data-jenis="dokumen">
+              </div>
+              <p class="modul-hint" id="hint-inst7-4"><i class="fa-solid fa-circle-info"></i> Dokumen belum diunggah. Klik <strong>Upload Dokumen</strong> untuk memilih file dari komputer/HP Anda.</p>
+              <div class="modul-embed" hidden>
+                <div class="btn-row">
+                  <button type="button" class="btn-full" data-zoom="inst7-frame-4"><i class="fa-solid fa-expand"></i> Lihat Berkas</button>
+                </div>
+                <iframe class="modul-frame" id="inst7-frame-4" title="Rancangan Pembelajaran Siklus 4" hidden></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== KARTU 2: LAMPIRAN 8 ===== -->
+      <div class="card instrumen-card" data-aos="fade-up">
+        <div class="instrumen-head">
+          <span class="instrumen-badge">Lampiran 8</span>
+          <h3><i class="fa-solid fa-chalkboard-user"></i> Praktik Pembelajaran Mandiri</h3>
+        </div>
+
+        <div class="instrumen-grid">
+          <!-- Siklus 1 -->
+          <div class="instrumen-item">
+            <div class="instrumen-item-head">
+              <span class="siklus-badge">Siklus 1</span>
+            </div>
+            <div class="modul-box">
+              <div class="modul-actions" data-nama="Lampiran 8 — Praktik Pembelajaran Mandiri Siklus 1">
+                <label class="btn-upload" for="inst8-1">
+                  <i class="fa-solid fa-cloud-arrow-up"></i> Upload Dokumen
+                </label>
+                <input type="file" id="inst8-1" class="upload-input" accept=".pdf,.doc,.docx" data-target="inst8-frame-1" data-jenis="dokumen">
+              </div>
+              <p class="modul-hint" id="hint-inst8-1"><i class="fa-solid fa-circle-info"></i> Dokumen belum diunggah. Klik <strong>Upload Dokumen</strong> untuk memilih file dari komputer/HP Anda.</p>
+              <div class="modul-embed" hidden>
+                <div class="btn-row">
+                  <button type="button" class="btn-full" data-zoom="inst8-frame-1"><i class="fa-solid fa-expand"></i> Lihat Berkas</button>
+                </div>
+                <iframe class="modul-frame" id="inst8-frame-1" title="Praktik Pembelajaran Mandiri Siklus 1" hidden></iframe>
+              </div>
+            </div>
+          </div>
+
+          <!-- Siklus 2 -->
+          <div class="instrumen-item">
+            <div class="instrumen-item-head">
+              <span class="siklus-badge">Siklus 2</span>
+            </div>
+            <div class="modul-box">
+              <div class="modul-actions" data-nama="Lampiran 8 — Praktik Pembelajaran Mandiri Siklus 2">
+                <label class="btn-upload" for="inst8-2">
+                  <i class="fa-solid fa-cloud-arrow-up"></i> Upload Dokumen
+                </label>
+                <input type="file" id="inst8-2" class="upload-input" accept=".pdf,.doc,.docx" data-target="inst8-frame-2" data-jenis="dokumen">
+              </div>
+              <p class="modul-hint" id="hint-inst8-2"><i class="fa-solid fa-circle-info"></i> Dokumen belum diunggah. Klik <strong>Upload Dokumen</strong> untuk memilih file dari komputer/HP Anda.</p>
+              <div class="modul-embed" hidden>
+                <div class="btn-row">
+                  <button type="button" class="btn-full" data-zoom="inst8-frame-2"><i class="fa-solid fa-expand"></i> Lihat Berkas</button>
+                </div>
+                <iframe class="modul-frame" id="inst8-frame-2" title="Praktik Pembelajaran Mandiri Siklus 2" hidden></iframe>
+              </div>
+            </div>
+          </div>
+
+          <!-- Siklus 3 -->
+          <div class="instrumen-item">
+            <div class="instrumen-item-head">
+              <span class="siklus-badge">Siklus 3</span>
+            </div>
+            <div class="modul-box">
+              <div class="modul-actions" data-nama="Lampiran 8 — Praktik Pembelajaran Mandiri Siklus 3">
+                <label class="btn-upload" for="inst8-3">
+                  <i class="fa-solid fa-cloud-arrow-up"></i> Upload Dokumen
+                </label>
+                <input type="file" id="inst8-3" class="upload-input" accept=".pdf,.doc,.docx" data-target="inst8-frame-3" data-jenis="dokumen">
+              </div>
+              <p class="modul-hint" id="hint-inst8-3"><i class="fa-solid fa-circle-info"></i> Dokumen belum diunggah. Klik <strong>Upload Dokumen</strong> untuk memilih file dari komputer/HP Anda.</p>
+              <div class="modul-embed" hidden>
+                <div class="btn-row">
+                  <button type="button" class="btn-full" data-zoom="inst8-frame-3"><i class="fa-solid fa-expand"></i> Lihat Berkas</button>
+                </div>
+                <iframe class="modul-frame" id="inst8-frame-3" title="Praktik Pembelajaran Mandiri Siklus 3" hidden></iframe>
+              </div>
+            </div>
+          </div>
+
+          <!-- Siklus 4 -->
+          <div class="instrumen-item">
+            <div class="instrumen-item-head">
+              <span class="siklus-badge">Siklus 4</span>
+            </div>
+            <div class="modul-box">
+              <div class="modul-actions" data-nama="Lampiran 8 — Praktik Pembelajaran Mandiri Siklus 4">
+                <label class="btn-upload" for="inst8-4">
+                  <i class="fa-solid fa-cloud-arrow-up"></i> Upload Dokumen
+                </label>
+                <input type="file" id="inst8-4" class="upload-input" accept=".pdf,.doc,.docx" data-target="inst8-frame-4" data-jenis="dokumen">
+              </div>
+              <p class="modul-hint" id="hint-inst8-4"><i class="fa-solid fa-circle-info"></i> Dokumen belum diunggah. Klik <strong>Upload Dokumen</strong> untuk memilih file dari komputer/HP Anda.</p>
+              <div class="modul-embed" hidden>
+                <div class="btn-row">
+                  <button type="button" class="btn-full" data-zoom="inst8-frame-4"><i class="fa-solid fa-expand"></i> Lihat Berkas</button>
+                </div>
+                <iframe class="modul-frame" id="inst8-frame-4" title="Praktik Pembelajaran Mandiri Siklus 4" hidden></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ REFLEKSI DIRI ============ -->
+    <section id="refleksi" class="section">
+      <div class="section-heading" data-aos="fade-up">
+        <h2><i class="fa-solid fa-lightbulb"></i> Refleksi Diri</h2>
+      </div>
+
+      <div class="card reflection-card" data-aos="fade-up">
+        <div class="reflection-grid reflection-grid-stack">
+
+          <!-- ============ 1. HAL YANG SUDAH DIPELAJARI ============ -->
+          <div class="reflection-item">
+            <h4><i class="fa-solid fa-graduation-cap"></i> 1. Hal yang Sudah Dipelajari Selama PPL Mandiri</h4>
+            <p>Selama menjalani PPL Mandiri, saya belajar merencanakan, melaksanakan, dan mengevaluasi pembelajaran secara mandiri. Saya memperoleh pengalaman menyusun modul ajar, memilih media pembelajaran, serta merancang instrumen asesmen sesuai tujuan pembelajaran. Melalui empat siklus pembelajaran, saya belajar menggunakan PPT, kuis digital, LKPD, video, dan peralatan dapur secara langsung untuk mendukung pemahaman peserta didik.</p>
+            <p>Selain itu, saya belajar mengelola kelas, membangun komunikasi yang baik, membimbing diskusi kelompok, serta melakukan refleksi terhadap proses pembelajaran. Pengalaman ini membantu saya memahami pentingnya menyesuaikan strategi pembelajaran dengan kebutuhan peserta didik dan terus meningkatkan kompetensi sebagai calon guru profesional.</p>
+          </div>
+
+          <!-- ============ 2. PENGALAMAN TERBAIK ============ -->
+          <div class="reflection-item">
+            <h4><i class="fa-solid fa-trophy"></i> 2. Pengalaman Terbaik dan Dampaknya</h4>
+            <p>Pengalaman terbaik saya adalah melaksanakan pembelajaran materi Peralatan Pengolahan Makanan dengan menggunakan peralatan dapur asli. Peserta didik melakukan pengamatan terhadap nama dan fungsi peralatan, membedakan <em>kitchen equipment</em> dan <em>kitchen utensils</em>, serta mengerjakan LKPD berbasis pos. Mereka juga mendiskusikan poster studi kasus K3 untuk mengidentifikasi potensi bahaya dan menentukan tindakan pencegahan.</p>
+            <p>Bukti pelaksanaan kegiatan ini dapat ditunjukkan melalui LKPD yang dikerjakan, dokumentasi penggunaan peralatan, dan hasil diskusi kasus K3. Kegiatan tersebut memberikan pengalaman belajar yang menghubungkan teori dengan praktik nyata.</p>
+            <p>Bagi saya, pengalaman ini meningkatkan kepercayaan diri dalam mengajar dan memperkuat pemahaman tentang pentingnya pembelajaran praktik yang terarah, kontekstual, dan memperhatikan keselamatan kerja.</p>
+          </div>
+
+          <!-- ============ 3. RENCANA PENGEMBANGAN DIRI ============ -->
+          <div class="reflection-item">
+            <h4><i class="fa-solid fa-seedling"></i> 3. Rencana Pengembangan Diri</h4>
+            <p>Saya akan mengembangkan kompetensi mengajar melalui langkah-langkah yang terukur:</p>
+            <ol class="reflection-list reflection-list-num">
+              <li>Memeriksa kesesuaian tujuan, materi, media, dan asesmen sebelum setiap pembelajaran.</li>
+              <li>Menyiapkan minimal satu aktivitas interaktif yang sesuai dengan materi pada setiap pertemuan.</li>
+              <li>Membuat refleksi tertulis setelah mengajar dengan mencatat minimal dua hal yang berhasil dan dua hal yang perlu diperbaiki.</li>
+              <li>Menganalisis hasil asesmen untuk menentukan kebutuhan remedial dan pengayaan.</li>
+              <li>Meminta umpan balik dari guru pamong atau rekan sejawat minimal satu kali setiap bulan.</li>
+            </ol>
+            <p>Dalam tiga bulan ke depan, saya akan mengevaluasi perkembangan melalui perangkat pembelajaran, hasil asesmen, catatan refleksi, dokumentasi kegiatan, dan umpan balik yang diperoleh. Dengan langkah tersebut, saya berharap dapat meningkatkan kemampuan mengelola kelas, menggunakan media pembelajaran secara efektif, dan melaksanakan asesmen yang sesuai dengan kebutuhan peserta didik.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="footer-mark"><i class="fa-solid fa-graduation-cap"></i></div>
+    <p class="footer-script">Terima kasih sudah berkunjung</p>
+    <p>&copy; 2026 E-Portfolio Praktik Mengajar Mandiri &mdash; Rahmawati Nawir</p>
+    <p>Universitas Negeri Makassar &bull; PPG Prajabatan Gelombang 1 2026</p>
+  </footer>
+</div>
+
+<!-- ================= FLOATING BUTTONS ================= -->
+<div class="fab-group">
+  <button class="fab fab-help" id="fabHelp" title="Bantuan">
+    <i class="fa-solid fa-comment-dots"></i>
+  </button>
+  <button class="fab fab-top" id="fabTop" title="Kembali ke atas">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+</div>
+
+<!-- ================= MODAL ================= -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal-box">
+    <button class="modal-close" id="modalClose"><i class="fa-solid fa-xmark"></i></button>
+    <div class="modal-icon"><i class="fa-solid fa-image"></i></div>
+    <p>Ganti dengan foto/dokumentasi kegiatan Anda di sini.</p>
+  </div>
+</div>
+
+<!-- ================= MODAL MODUL AJAR (TAMPILAN BESAR) ================= -->
+<div class="modul-modal" id="modulModal">
+  <div class="modul-modal-bar">
+    <h3 id="modulModalTitle"><i class="fa-solid fa-file-lines"></i> Modul Ajar</h3>
+    <div class="modul-modal-btns">
+      <a class="btn-modal-aksi" id="modulModalTab" target="_blank" rel="noopener"><i class="fa-solid fa-up-right-from-square"></i> Buka di Tab Baru</a>
+      <a class="btn-modal-aksi" id="modulModalDownload" download><i class="fa-solid fa-download"></i> Unduh</a>
+      <button type="button" class="modal-close-full" id="modulModalClose"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+  </div>
+  <div class="modul-modal-preview" id="modulModalPreview" hidden></div>
+  <iframe class="modul-modal-frame" id="modulModalFrame" title="Modul Ajar — tampilan besar"></iframe>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
